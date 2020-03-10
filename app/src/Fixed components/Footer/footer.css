@@ -1,0 +1,107 @@
+.all{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+
+}
+.footer-container {
+    display: grid;
+    grid-template-areas: 'left middle right';
+    background-color:#448FEE;
+    font-family: 'Aref Ruqaa', serif;
+    opacity: 0;
+    color: white;
+  } 
+  
+  .Subscribe,
+  .contact-us,
+  .position {
+    padding: 10px;
+    height: 300px;
+  }
+  .Subscribe {
+    grid-area: left;
+    text-align: center;
+
+  }
+
+  .Subscribe button{
+    font-weight: 1000;
+    background-color:#93EFA3;
+    font-family: 'Aref Ruqaa', serif;
+    border-bottom: #93EFA3;
+    border-right: #93EFA3;
+    border-top: #93EFA3;
+    border-left: #93EFA3;
+    font-weight: 1000;
+    height: 10%;
+    border-radius: 50%;
+    
+    
+}
+
+
+.Subscribe input{
+    width: 208px;
+    height: 29px;
+}
+
+  .contact-us {
+    grid-area: middle;
+    text-align: center;
+    display: block;
+
+  }
+  .position {
+    grid-area: right;
+    text-align: center;
+
+
+  }
+   hr{
+    border-top: 5px solid white;
+    width: 250px;
+
+}
+.position .address , .Subscribe h3, .Subscribe h4, .contact-us h3, .contact-us h4{
+    font-weight: 100;
+}
+button:hover{
+    background-color: #93EFA3;
+}
+/*
+.soical-media hr{
+    border-top: 5px solid white;
+    width: 350px;
+    margin-left: 75%;
+
+}
+*/
+
+.soical-media ul{
+    text-align: center;
+    margin-right: 15vh;
+
+}
+.soical-media ul li{
+    display: inline;
+    margin-left: 5%;
+}
+.soical-media ul li a{
+    color: #448FEE;
+    margin-left: 1%;
+}
+
+.social-network a.icofacebook:hover i,
+.social-network a.icoLinkedin:hover i,
+.social-network a.icotwitter:hover i,
+.social-network a.icoinstagram:hover i 
+ {
+  color: #93EFA3;
+}
+li a{
+    color: white;
+}
+::selection { color: #93EFA3; }
+
+  
