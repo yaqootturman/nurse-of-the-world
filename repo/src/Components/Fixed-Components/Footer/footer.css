@@ -1,5 +1,4 @@
 .all{
-    position: absolute;
     width: 100%;
     bottom: 0px;
 
@@ -80,7 +79,7 @@ button:hover{
 
 .soical-media ul{
     text-align: center;
-    margin-right: 15vh;
+    margin-right: 65vh;
 
 }
 .soical-media ul li{

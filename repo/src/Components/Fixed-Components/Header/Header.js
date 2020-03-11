@@ -1,11 +1,39 @@
-import React from 'react';
+import React, {useRef,useEffect} from 'react'
 import { Link } from "react-router-dom";
 import "./header.css";
-function Header(){
+import { TweenMax, Power3 } from "gsap";
 
-        return (
+function Header(){
+  let header = useRef(null);
+  let logo = useRef(null);
+
+
+  useEffect(()=> {
+      TweenMax.to(
+          header,
+          .8,
+          {
+              opacity:1.3,
+              y : 3.6,
+              ease: Power3.easeOut,
+              delay: 0.6
+          }
+      )
+      TweenMax.to(
+        logo,
+        .8,
+        {
+            opacity:1.3,
+            y : 3.6,
+            ease: Power3.easeOut,
+            delay: 0.3
+        }
+    )
+  },[])
+
+      return (
             <div className="container">
-              <div className="list">
+              <div ref={el => (header = el)} className="list">
                 <ul>
                     <li className="active"> <Link tolink="/home"> من  نحن</Link></li>
                     <li> <Link tolink="/news"> الاخبار</Link> </li>
@@ -16,7 +44,7 @@ function Header(){
 
                 </ul> 
               </div>
-                <div className="logo">
+                <div  ref={el => (logo = el)} className="logo">
                     <h1> <span>فريق</span> ممرضين حول العالم</h1>
             </div>
             </div>

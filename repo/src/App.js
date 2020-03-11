@@ -1,14 +1,13 @@
 import React from 'react';
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
-import Footer from './Components/Fixed-Components/Footer/Footer';
+import HomeUI from './Components/Changeable-Components/Home/HomeUI';
 
 
 function App() {
   return (
     <Router>
         <Switch>
-            <Footer></Footer>
-  
+        <Route exact path ="/" component={HomeUI} />
         </Switch> 
        </Router>
   );

@@ -1,24 +1,11 @@
 import React, {useRef,useEffect} from 'react'
 import "./footer.css";
-import { TweenMax, Power3 } from "gsap";
 function Footer() {
   
-    let footer = useRef(null);
-    useEffect(()=> {
-        TweenMax.to(
-            footer,
-            .8,
-            {
-                opacity:1.3,
-                y : -20,
-                ease: Power3.easeInOut
-            }
-        )
-    },[])
-
+   
        return (
            <div className="all">
-            <div ref={el => (footer = el)} className="footer-container">    
+            <div className="footer-container">    
                      <div className="Subscribe">
                          <h1>اشتراك</h1>
                          <hr></hr>

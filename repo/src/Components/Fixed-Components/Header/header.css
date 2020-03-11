@@ -8,6 +8,10 @@
     font-family: Amiri;
 
 }
+.list{
+    opacity: 0;
+
+}
 ul{
     padding-right: 40px;
     list-style: none;
@@ -41,6 +45,7 @@ li:active{
     word-spacing: 4px;
     font-family: 'Aref Ruqaa', serif;
     font-weight: 100;
+    opacity: 0;
 
 }
  .logo h1{
