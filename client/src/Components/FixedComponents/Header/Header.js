@@ -3,12 +3,11 @@ import { Link } from "react-router-dom";
 import {TweenMax,Power3} from 'gsap';
 import "./header.css";
 function Header(){
-    let logo = useRef(null);
+    let logoanimation = useRef(null);
     let list = useRef(null);
-    let button = useRef(null);
     useEffect(() => {
         TweenMax.to(
-            logo,
+            logoanimation,
             .8,
             {
                 ease: Power3.easeInOut,
@@ -42,8 +41,8 @@ function Header(){
 
                 </ul> 
               </div>
-                <div className="logo">
-                    <h1 ref={el => (logo = el)}> <span>فريق</span> ممرضين حول العالم</h1>
+                <div className="header-logo">
+                    <h1  ref={el => (logoanimation = el)}><span>فريق</span> ممرض العالم</h1>
             </div>
             </div>
         )
