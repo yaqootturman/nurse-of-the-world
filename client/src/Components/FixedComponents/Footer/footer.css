@@ -77,12 +77,12 @@ button:hover{
 
 .soical-media ul{
     text-align: center;
-    margin-right: 65vh;
+    margin-right: 10%;
 
 }
 .soical-media ul li{
     display: inline;
-    margin-left: 5%;
+    margin-left: 7%;
 }
 .soical-media ul li a{
     color: #448FEE;
