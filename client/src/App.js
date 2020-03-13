@@ -1,11 +1,14 @@
 import React from 'react';
-
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import Home from './Components/ChangeableComponents/Home/Home';
 
 function App() {
   return (
-    <div className="App">
-      <h1>jdjjdjjddlslsjfkl</h1>
-    </div>
+    <Router>
+        <Switch>
+          <Home></Home>
+        </Switch> 
+       </Router>
   );
 }
 
