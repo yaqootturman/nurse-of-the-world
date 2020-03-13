@@ -7,7 +7,7 @@ import {TweenMax,Power3} from 'gsap';
 
 function Home () {
     let home = useRef(null);
-    let p = useRef(null);
+    let breif = useRef(null);
     useEffect(() => {
         TweenMax.to(
             home,
@@ -19,7 +19,7 @@ function Home () {
             }
         )
         TweenMax.to(
-            p,
+            breif,
             .8,
             {
                 ease: Power3.easeInOut,
@@ -38,7 +38,7 @@ function Home () {
                         <img  ref={el => (home = el)} src={homeLogo}></img>
                     </div>
                     <div className="paragraph">
-                        <p ref={el => (p = el)}>مهتمنا هي  تعزيز كفاءة التعليم والتدريب والدور القيادي للشباب عن طريق دعم جيل جديد من الشباب ليصبحوا قادة متعلمين ، مهنيين مهرة ، ورواداَ يلهمون أفراد عائلاتهم للتكاثف وتحقيق الازدهار</p>
+                        <p ref={el => (breif = el)}>مهتمنا هي  تعزيز كفاءة التعليم والتدريب والدور القيادي للشباب عن طريق دعم جيل جديد من الشباب ليصبحوا قادة متعلمين ، مهنيين مهرة ، ورواداَ يلهمون أفراد عائلاتهم للتكاثف وتحقيق الازدهار</p>
                         <button>المزيد عنا</button>
                     </div>
                   
