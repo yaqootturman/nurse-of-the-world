@@ -72,18 +72,36 @@ function Home () {
                     
                 </div>
                 <div className="div-third">
-                    <div className="tittle"></div>
-                    <div className="activites-shape"></div>
-                    <button>استكشاف المزيد</button>
-                    <div>try</div>
-                    <div>try</div>
-                    <div>try</div>
-                    <div>try</div>
-                    <div>try</div>
+                    <div className="tittle">
+                        <h1>قسم الأنشطة والأخبار</h1>
+                        <hr></hr> <hr></hr>
+                    </div>
+                    <div className="activites-shape">
+                    <div className="first">
+                          1   
+                        </div>
+                         <div className="second">
+                           2 
+                        </div>
+                        <div className="third">
+                             3  
+                        </div>
+                        <h1>tittle1</h1>
+                        <h1 >tittle2</h1>
+                        <h1 >tittle3</h1> 
+                     </div>
+                     <button>استكشاف المزيد</button>
+                        </div> 
 
+                
+                <div className="div-fifth">
                     
                 </div>
                 <div className="div-fourth">
+                    <div className="tittle">
+                        <h1>قسم المقالات </h1>
+                        <hr></hr> <hr></hr>
+                    </div>
                     <div className="article-shape">
                         <div className="first-item">
                           1   
@@ -102,9 +120,6 @@ function Home () {
                     <button>استكشاف المزيد</button>
 
                     </div>
-                <div className="div-fifth">
-                    
-                </div>
                 <div className="div-sixth">
                     <h1>كن متطوعاَ</h1>
                     <p>بهدف مساعدة أكبر عدد ممكن من  الأشخاص ، نفتقر دائما إلى المتطوعين المتحمسين
