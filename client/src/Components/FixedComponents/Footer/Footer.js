@@ -4,7 +4,7 @@ function Footer() {
   
    
        return (
-           <div className="all">
+           <div id="section6"className="all">
             <div className="footer-container">    
                      <div className="Subscribe">
                          <h1>اشتراك</h1>
