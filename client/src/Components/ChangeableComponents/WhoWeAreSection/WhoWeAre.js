@@ -17,7 +17,7 @@ function WhoWeAre(){
         )
     }, [])   
   return(
-    <div className="div-second">
+    <div id="section2" className="div-second">
     <div class="para">
         <p ref={el => (secondDivLogo = el)} >نحن فريق شبابي طبي نتطلع إلى جيل حر قادر متعلم ذو كفاءة عن طريق مساعدة بعضنا
             البعض، نشبك أيدينا سوياُ لنحمل مستقبل أفضل كل شبابنا ومجتمعنا</p>        
