@@ -1,0 +1,52 @@
+.div-one{
+    background-color: white;
+    height: 47vw;
+
+}
+.div-one .paragraph {
+    padding-top:14%;
+    margin-left: 10%;
+    width:48vw;
+    height: 250vw; 
+    font-family: 'Aref Ruqaa', serif;
+    font-size: 12px;
+
+}   
+.div-one .paragraph p{
+    text-align: center;
+    font-size: 3em;
+    opacity: 0;
+    text-align: right;
+        
+    }
+.div-one .paragraph button{
+   width:200px;
+    height: 50px;
+    box-shadow: 0px 8px 8px #93EFA3;
+    border-radius: 30px;
+    background-color: #93EFA3;
+    border-right: #93EFA3;
+    border-left: #93EFA3;
+    border-bottom: #93EFA3;
+    margin-left: 40%;
+    margin-top: -60%;
+    font-weight: 1000;
+    font-size: 1.4em;
+    }
+button:hover {
+    transform: scale(1.2);
+}
+.div-one-logo{ 
+    position: absolute;
+
+}
+.div-one-logo img{
+    width: 320px;
+    height: 320px;
+    opacity: 0;
+    padding-top:13%;
+    margin-left: 900px;
+    
+
+    
+}

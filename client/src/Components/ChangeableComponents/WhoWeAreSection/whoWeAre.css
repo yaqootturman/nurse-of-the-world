@@ -1,0 +1,45 @@
+ /* */
+ .div-second{
+    background-color: cornflowerblue;
+    height: 45vw;
+    padding-top: 1%;
+    font-family: Amiri;   
+    
+    
+}
+.div-second p{
+    width: 60%;
+    height: 10%;
+    font-size: 1.5em;
+    text-align: center;
+    margin-left: 20%;
+    padding-top: 10%;
+    opacity: 0;
+}
+.icons ul{
+    padding-right: 40px;
+    list-style: none;
+    font-size: 1.2em;
+    font-weight: 1000;
+    margin-top: -20px;
+}
+.icons ul li{
+    float: right;
+    padding: 9%; 
+       
+}
+ul li a{
+    color:white;
+    text-decoration: none;  
+}
+
+ li:hover{
+    transform: scale(1.5);  
+}
+a:hover{
+    color:#93EFA3;
+}
+li:active{
+    color: #93EFA3;
+}
+/* */
