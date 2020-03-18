@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import "./eventNews.css";    
 function EventNews(){
         return(
-            <div className="div-third">
+            <div id="section3" className="div-third">
                 <div className="tittle">
                     <h1>قسم الأنشطة والأخبار</h1>
                     <hr></hr> <hr></hr>
@@ -21,7 +22,7 @@ function EventNews(){
                     <h1 >tittle2</h1>
                     <h1 >tittle3</h1> 
                 </div>
-                <button>استكشاف المزيد</button>
+               <Link to="/home/news-and-event-section"> <button>استكشاف المزيد</button></Link>
             </div>
 
         )
