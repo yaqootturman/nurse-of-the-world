@@ -1,11 +1,12 @@
 import React from 'react';
 import "./articles.css";
+import {Link} from 'react-router-dom';
 
 
 function Articles(){
   
         return(
-            <div className="div-fourth">
+            <div id="section5" className="div-fourth">
             <div className="tittle">
                 <h1>قسم المقالات </h1>
                 <hr></hr> <hr></hr>
@@ -25,7 +26,7 @@ function Articles(){
                 <h1 >tittle3</h1> 
                 </div> 
                 
-            <button>استكشاف المزيد</button>
+                <Link to="/home/article-section"> <button>استكشاف المزيد</button></Link>
 
             </div>
        
