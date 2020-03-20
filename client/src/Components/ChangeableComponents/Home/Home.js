@@ -4,7 +4,6 @@ import {Link} from 'react-router-dom';
 import Footer from '../../FixedComponents/Footer/Footer';
 import Header from '../../FixedComponents/Header/Header';
 import FirstDiv from '../FirstUISection/FirstDiv';
-import WhoWeAre from '../WhoWeAreSection/WhoWeAre';
 import EventNews from '../EventsandNewsSection/EventsNewsSection/EventNews';
 import Calendar from '../CalendarSection/Calendar';
 import Articles from '../Articles/ArticleSection/Articles';
@@ -19,7 +18,6 @@ function Home () {
              <Header></Header>
                 <div class="all-home">
                     <FirstDiv></FirstDiv>
-                    <WhoWeAre></WhoWeAre>
                     <EventNews></EventNews>
                     <Calendar></Calendar>
                     <Articles></Articles>
