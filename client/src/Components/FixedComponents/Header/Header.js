@@ -33,12 +33,12 @@ function Header(){
             <div className="container">
               <div  ref={el => (list = el)} className="list">
                 <ul>
-                        <li> <Link
+                <li> <Link
                         activeClass="active"
                         to="section2"
                         smooth={true}
                         duration= {500}
-                        >من نحن</Link> </li>
+                        >من نحن </Link></li>
                       <li> <Link
                         activeClass="active"
                         to="section3"
