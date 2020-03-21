@@ -2,7 +2,7 @@
     height:500vw;
 }
  .div-second{
-    background-color: cornflowerblue;
+    background-color:aliceblue;
     height: 45vw;
     padding-top: 1%;
     font-family: Amiri;   
@@ -15,7 +15,7 @@
     font-size: 1.5em;
     text-align: center;
     margin-left: 20%;
-    padding-top: 10%;
+    padding-top: 2%;
     opacity: 0;
 }
 .icons ul{
@@ -30,13 +30,13 @@
     padding: 9%; 
        
 }
-ul li a{
-    color:white;
-    text-decoration: none;  
+.icons ul li a{
+    text-decoration: none; 
+    color:#448FEE;
 }
 
  li:hover{
-    transform: scale(1.5);  
+    transform: scale(1.2);  
 }
 a:hover{
     color:#93EFA3;
@@ -45,3 +45,7 @@ li:active{
     color: #93EFA3;
 }
 /* */
+.first-icon p{
+    color:black;
+    text-align: left;
+}

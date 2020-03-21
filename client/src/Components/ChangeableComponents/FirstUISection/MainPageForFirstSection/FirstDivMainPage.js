@@ -1,5 +1,6 @@
 import React ,{useRef, useEffect} from 'react';
 import {TweenMax,Power3} from 'gsap';
+import SecondaryHeader from '../../SecondaryHeader/SecondaryHeader'
 import Footer from '../../../FixedComponents/Footer/Footer';
 import "./firstdivmainpage.css";
 
@@ -20,7 +21,8 @@ function FirstDivMainPage(){
         }, [])   
     return(
         <>
-        <div id="section2" className="div-second">
+        <SecondaryHeader></SecondaryHeader>
+        <div className="div-second">
         <div class="para">
             <p ref={el => (secondDivLogo = el)} >نحن فريق شبابي طبي نتطلع إلى جيل حر قادر متعلم ذو كفاءة عن طريق مساعدة بعضنا
                 البعض، نشبك أيدينا سوياُ لنحمل مستقبل أفضل كل شبابنا ومجتمعنا</p>        
@@ -33,6 +35,9 @@ function FirstDivMainPage(){
             <li><a href="https://www.google.com/" target="_blank"  title="من نحن؟"> <i class="fas fa-users fa-3x"></i></a></li>
 
         </ul>
+        <div className="first-icon">
+            <p>jdjdjjdjddjd</p>
+        </div>
             
         </div>
         
