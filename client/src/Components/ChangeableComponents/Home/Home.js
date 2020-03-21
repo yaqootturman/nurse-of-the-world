@@ -16,7 +16,7 @@ function Home () {
         return (
             <>
              <Header></Header>
-                <div class="all-home">
+                <div id="section2" class="all-home">
                     <FirstDiv></FirstDiv>
                     <EventNews></EventNews>
                     <Calendar></Calendar>
