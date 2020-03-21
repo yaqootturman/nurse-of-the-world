@@ -1,4 +1,32 @@
 .news-all{
-    height:500vw;
+    height:240vh;
 
 }
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    width:70vw;
+    margin-left: 15vw;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 6vh;
+    text-align: center;
+    width:400px;
+    height: 150px;
+  }
+.article1:hover{
+    transform: scale(1.1);
+}
+
+  .boxs h1{
+      text-align: center;
+      font-family: Amiri;
+      font-size: 5vh;
+
+  }
+  .article1 h1{
+      margin-top:140px
+  }
