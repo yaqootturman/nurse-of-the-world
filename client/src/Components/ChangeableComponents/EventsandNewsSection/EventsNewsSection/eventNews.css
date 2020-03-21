@@ -1,5 +1,5 @@
 .div-third{
-    background-color: white;
+    background-color: #448FEE;
     height: 45vw;
     margin-top: -2%;
 
@@ -14,7 +14,6 @@
     width:2vw;
     height: 0.2vw;
     text-align: center;
-    background-color:black;
     width: 20vw;
 
 
@@ -45,7 +44,7 @@
     position: absolute;
     width: 235px;
     height: 59px;
-    background: #448FEE;
+    background-color:#93EFA3;
     border-right: #448FEE;
     border-left: #448FEE;
     border-top: #448FEE;
