@@ -27,7 +27,9 @@
 }
 .icons ul li{
     float: right;
-    padding: 9%; 
+    padding: 9%;
+    opacity: 0;
+ 
        
 }
 .icons ul li a{
