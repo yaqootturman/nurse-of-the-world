@@ -17,7 +17,7 @@ function Home () {
             <>
              <Header></Header>
                 <div id="section2" class="all-home">
-                    <FirstDiv></FirstDiv>
+                    <FirstDiv ></FirstDiv>
                     <EventNews></EventNews>
                     <Calendar></Calendar>
                     <Articles></Articles>
