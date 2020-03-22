@@ -15,7 +15,7 @@ export default function SecondartHeader() {
                 <h1>العودة الى الصفحة الرئيسية </h1>
             </div>
             <div className="right">
-            <h1><span>فريق</span> ممرض العالم / قسم من نحن </h1>
+            <h1><span>فريق</span> ممرض العالم </h1>
 
             </div>
 
