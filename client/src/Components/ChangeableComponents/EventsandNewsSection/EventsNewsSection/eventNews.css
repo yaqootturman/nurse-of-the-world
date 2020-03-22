@@ -2,6 +2,7 @@
     background-color: #448FEE;
     height: 45vw;
     margin-top: -2%;
+    
 
 }
 .div-third .tittle{
@@ -35,9 +36,9 @@
 }
 .activites-shape .first , .second, .third{
     background-color: gray;
-    height: 20vw;
+    height: 40vh;
     width:20vw;
-    margin-left: 20%;
+    margin-left: 6.3vw;
     text-align: center;
 }
 .activites-shape h1{
@@ -57,12 +58,12 @@
 
 }
 #arrow-left{
-    margin-top:-59vh;
-    margin-left:20px;
+    margin-top:-54vh;
+    margin-left:3vw;
 
 }
 #arrow-right{
-    margin-left:210vh;
-    margin-top:20vh;
+    margin-top:25vh;
+    margin-left:95vw;
 
 }
