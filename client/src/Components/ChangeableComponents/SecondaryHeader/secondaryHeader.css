@@ -1,6 +1,6 @@
 .secondary-header{
     width: 100%;
-    height: 15vh;
+    height: 10vh;
     left: 0px;
     top: 0px;
     font-family: Amiri;
@@ -12,25 +12,28 @@
 .secondary-header .left .icon{
     padding-top: 2vw;
     padding-left: 2vw;
-    font-size: 1vw;
+    font-size: 0.5vw;
 
 }
 .secondary-header .left h1{
-    margin-left: 7vw;
-    margin-top: -4vw;
-    font-size: 2.5vw;
+    margin-left: 4vw;
+    margin-top: -2vw;
+    font-size: 1.2vw;
     color:white;
 
 }
 .secondary-header .right{
     text-align:right;
-    margin-top: -7vw;
+    margin-top: -5vw;
+    font-size: 0.8vw;
+
 }
 .right h1{
     color: #93EFA3;
     margin-top: 2.3%;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.7em;
     padding-right:8vh;
+
 
 }
 .right span{
