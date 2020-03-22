@@ -5,7 +5,10 @@ import '../../EventsandNewsSection/EventsNewsPageComponent/newsmainpage.css';
     
 
 function AllArticles() {
-    return (
+    window.scroll({
+        top: 0, 
+      });
+     return (
         <>
                 <SecondaryHeader></SecondaryHeader>
                 <div className="news-all">

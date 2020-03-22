@@ -5,7 +5,10 @@ import './newsmainpage.css';
     
     
 
-function NewsMainPage(){      
+function NewsMainPage(){   
+    window.scroll({
+        top: 0, 
+      });   
         return(
             <>
                 <SecondaryHeader></SecondaryHeader>

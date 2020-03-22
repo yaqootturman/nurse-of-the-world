@@ -6,7 +6,9 @@ import "./firstdivmainpage.css";
 
 
 function FirstDivMainPage(){
-  
+    window.scroll({
+        top: 0, 
+      });
         let words= useRef(null);
         let listFour = useRef(null);
         let listOne = useRef(null);
