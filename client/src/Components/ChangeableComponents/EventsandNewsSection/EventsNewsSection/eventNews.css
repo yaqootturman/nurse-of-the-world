@@ -9,6 +9,8 @@
     width:25vw;
     margin-left: 38%;
     font-family: 'Aref Ruqaa', serif;
+    margin-top:-10%;
+
 }
 .div-third .tittle hr{
     width:2vw;
@@ -17,23 +19,25 @@
     width: 20vw;
 
 
+
 }
 .tittle h1{
     text-align: center;
-    padding-top: 20px;
+    margin-top:-10%;
+
 
 }
 
 .activites-shape{
     display: grid;
     grid-template-columns: auto auto auto;
+    padding-top:5%;
 }
 .activites-shape .first , .second, .third{
     background-color: gray;
     height: 20vw;
     width:20vw;
     margin-left: 20%;
-    margin-top:20%;
     text-align: center;
 }
 .activites-shape h1{
@@ -50,5 +54,17 @@
     border-top: #448FEE;
     border-bottom: #448FEE;
     border-radius: 50px;
+
+}
+#arrow-left{
+    margin-top:-59vh;
+}
+#arrow-left{
+    margin-left:20px;
+
+}
+#arrow-right{
+    margin-left:210vh;
+    margin-top:20vh;
 
 }

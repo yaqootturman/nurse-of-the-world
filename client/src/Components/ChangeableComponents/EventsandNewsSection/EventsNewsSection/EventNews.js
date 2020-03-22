@@ -4,6 +4,7 @@ import "./eventNews.css";
 function EventNews(){
         return(
             <div id="section3" className="div-third">
+                 <i id="arrow-right" class="fas fa-arrow-right"></i>
                 <div className="tittle">
                     <h1>قسم الأنشطة والأخبار</h1>
                     <hr></hr> <hr></hr>
@@ -21,6 +22,8 @@ function EventNews(){
                     <h1>tittle1</h1>
                     <h1 >tittle2</h1>
                     <h1 >tittle3</h1> 
+                    <i id="arrow-left" class="fas fa-arrow-left"></i>
+
                 </div>
                <Link to="/home/news-and-event-section"> <button>استكشاف المزيد</button></Link>
             </div>
