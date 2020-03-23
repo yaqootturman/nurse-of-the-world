@@ -6,6 +6,8 @@
     top: 0px;
     background: rgb(26, 24, 24);
     font-family: Amiri;
+    z-index: 99;
+
 
 }
 .container ul{
@@ -26,6 +28,7 @@
 
 .container ul li a:hover{
     color: #448EFF;
+    cursor: pointer;
     
 }
 li:active{

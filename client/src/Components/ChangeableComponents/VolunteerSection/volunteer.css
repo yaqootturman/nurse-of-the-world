@@ -1,0 +1,27 @@
+.div-sixth{
+    background-color: rgb(212, 207, 207);
+    height: 45vw;
+    font-family: 'Aref Ruqaa', serif;
+    text-align: center;
+    font-size: 2em;
+    padding-top: 1%;
+
+    
+}
+.div-sixth h1{
+    padding-top: 3%;
+}
+mark{
+    background-color:#448FEE;
+}
+.div-sixth button{
+    width: 235px;
+    height: 59px;
+    background: #448FEE;
+    border-bottom: #448FEE;
+    border-right: #448FEE;
+    border-radius: 50px; 
+    font-size: 1em;
+    font-family: 'Aref Ruqaa', serif;
+
+}

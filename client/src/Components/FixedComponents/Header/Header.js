@@ -33,7 +33,7 @@ function Header(){
               <div  ref={el => (list = el)} className="list">
                 <ul>
                     <li className="active"> <Link tolink="/home"> من  نحن</Link></li>
-                    <li> <Link tolink="/news"> الاخبار</Link> </li>
+                    <li className="active"> <Link tolink="/news"> الاخبار</Link> </li>
                     <li> <Link tolink="/events"> الأحداث</Link></li>
                     <li> <Link tolink="/articles"> المقالات</Link></li>
                     <li> <Link tolink="/contact-us"> التواصل معنا </Link></li>
