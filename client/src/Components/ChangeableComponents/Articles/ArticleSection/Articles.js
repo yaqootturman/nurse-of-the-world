@@ -3,8 +3,7 @@ import "./articles.css";
 import {Link} from 'react-router-dom';
 
 
-function Articles(){
-  
+function Articles(){  
         return(
             <div id="section5" className="div-fourth">
                <i id="arrow-right" class="fas fa-arrow-right"></i>
@@ -14,7 +13,7 @@ function Articles(){
               </div>
               <div className="article-shape">
                   <div className="first-item">
-                    1   
+                    1  
                   </div>
                   <div className="second-item">
                     2 
