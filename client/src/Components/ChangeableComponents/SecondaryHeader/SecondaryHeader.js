@@ -1,20 +1,21 @@
-import React from 'react'
-import {Link} from 'react-router-dom';
+import React, { Component } from 'react'
 import './secondaryHeader.css';
+import history from '../../../history';
 
-export default function SecondartHeader() {
-  
+export default class SecondartHeader extends Component {
+    handleClick(){
+        history.push('/')
+
+    }
+    render(){
     return (
         <div className="secondary-header">
             <div className="left"> 
                 <div className="icon">
-                    <Link 
-                        activeClass="active"
-                        to={"/home"}
-                        duration= {1000}>
-                        <i className="fas fa-arrow-left fa-3x"> 
-                        </i>
-                    </Link>
+                   <i className="fas fa-arrow-left fa-3x">
+                   </i>
+                   <button onClick={(e) =>this.handleClick(e)}>hi </button>
+
                 </div>
                 <h1>العودة الى القسم الرئيسي</h1>
             </div>
@@ -27,4 +28,5 @@ export default function SecondartHeader() {
         </div>
       
     )
+}
 }
