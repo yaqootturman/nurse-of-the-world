@@ -5,7 +5,6 @@ import AllArticles from './Components/ChangeableComponents/Articles/MainPageComp
 import NewsMainPage from './Components/ChangeableComponents/EventsandNewsSection/EventsNewsPageComponent/NewsMainPage';
 import FirstDivMainPage from './Components/ChangeableComponents/FirstUISection/MainPageForFirstSection/FirstDivMainPage';
 
-
 function App() {
   return (
     <Router>
@@ -15,7 +14,6 @@ function App() {
           <Route exact path ="/home/article-section" component={AllArticles} />
           <Route exact path ="/home/news-and-event-section" component={NewsMainPage} />
           <Route exact path ="/home/details-about-us" component={FirstDivMainPage} />
-
 
 
         </Switch> 
