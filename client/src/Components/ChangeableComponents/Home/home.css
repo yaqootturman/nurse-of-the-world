@@ -1,16 +1,13 @@
 .all-home{
-    height:235vw;
+    height:241vw;
     background-color: white;
     
     }
-    button{
+    .all-home button{
         cursor: pointer;
         font-family: 'Aref Ruqaa', serif;
 
     }
-   
-    
-   
     ::selection {
         color: #448FEE;
         background: #93EFA3;
