@@ -1,17 +1,15 @@
 .news-all{
-    height:240vh;
+    height:250vh;
 
 }
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    width:70vw;
     margin-left: 15vw;
   }
   
   .flex-container > div {
     background-color: #f1f1f1;
-    width: 100px;
     margin: 6vh;
     text-align: center;
     width:400px;
