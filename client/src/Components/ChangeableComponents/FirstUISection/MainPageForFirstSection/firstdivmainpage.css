@@ -1,53 +1,75 @@
-.main-all{
-    height:500vw;
+.all-page{
+    height:50vw;
+
 }
- .div-second{
-    background-color:aliceblue;
-    height: 45vw;
-    padding-top: 1%;
-    font-family: Amiri;   
-    
-    
-}
+.div-second{
+    margin-top: -5vh; 
+    width: 100%;
+    height: 100vh;
+    font-family: 'Aref Ruqaa', serif; 
+    background: linear-gradient(-45deg, #0000 0%, #448EFF 13%, #0000 25%, white 38%, rgb(145, 180, 233) 50%, rgb(173, 230, 182) 62%, white 75%, #0000 87%, #448EFF 100%);;
+    background-size: 400% 400%;
+    animation: animate 7.5s ease-in-out infinite;
+  }
+  
+  @keyframes animate{
+    0%{
+      background-position: 0 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0 50%;
+    }
+  }
 .div-second p{
     width: 60%;
     height: 10%;
-    font-size: 1.5em;
+    font-size: 2vw;
     text-align: center;
     margin-left: 20%;
-    padding-top: 2%;
-    opacity: 0;
+    padding-top: 5%;
+
 }
-.icons ul{
-    padding-right: 40px;
-    list-style: none;
-    font-size: 1.2em;
-    font-weight: 1000;
-    margin-top: -20px;
+.icons{
+    padding-top: 10vh;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
 }
-.icons ul li{
-    float: right;
-    padding: 9%;
-    opacity: 0;
- 
-       
+.icons .first-icon ,.icons .second-icon , .icons .third-icon , .icons .fourth-icon{
+    font-size: 0.7vw;
+    width:20vw;
+    height: 10vh;
+    text-align: right;
+
+    
 }
-.icons ul li a{
-    text-decoration: none; 
+a{
     color:#448FEE;
+
+}
+.icons  li{
+    direction: rtl;
+}
+.first-icon h1, .second-icon h1, .third-icon h1, .fourth-icon h1{
+    opacity: 0;
 }
 
- li:hover{
-    transform: scale(1.2);  
+.hover1:hover > h1{
+    opacity: 1;
+    color: black;
 }
-a:hover{
-    color:#93EFA3;
+.hover2:hover > h1{
+    opacity: 1;
+    color: black;
 }
-li:active{
-    color: #93EFA3;
+.hover3:hover > h1{
+    opacity: 1;
+    color: black;
 }
-/* */
-.first-icon p{
-    color:black;
-    text-align: left;
+.hover4:hover > h1{
+    opacity: 1;
+    color: black;
 }

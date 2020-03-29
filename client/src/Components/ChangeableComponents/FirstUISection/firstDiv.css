@@ -10,19 +10,18 @@
     width:48vw;
     height: 250vw; 
     font-family: 'Aref Ruqaa', serif;
-    font-size: 12px;
 
 }   
 .div-one .paragraph p{
     text-align: center;
-    font-size: 3em;
+    font-size: 3vw;
     opacity: 0;
     text-align: right;
         
     }
 .div-one .paragraph button{
-   width:200px;
-    height: 50px;
+    width:20vw;
+    height: 9vh;
     box-shadow: 0px 8px 8px #93EFA3;
     border-radius: 30px;
     background-color: #93EFA3;
@@ -32,18 +31,26 @@
     margin-left: 40%;
     margin-top: -60%;
     font-weight: 1000;
-    font-size: 1.4em;
+    font-size: 1.4vw;
     }
 .div-one button:hover {
     transform: scale(1.2);
 }
 .div-one-logo img{
-    width: 320px;
-    height: 320px;
+    width: 30vw;
+    height: 60vh;
     opacity: 0;
-    padding-top:13%;
-    margin-left:60vw;
-    position: absolute;
-
-    
+    margin-top:29vh;
+    margin-left: 60vw;
+    position: absolute;    
 }
+@media only screen and (min-width: 320px) and (max-width:589px) {
+    .div-one-logo img{
+    width: 20px;
+    height: 20px;
+    }
+    .div-one button:hover {
+        transform: scale(0.4);
+    }
+   
+  }
