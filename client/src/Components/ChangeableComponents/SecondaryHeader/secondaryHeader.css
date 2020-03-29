@@ -1,11 +1,11 @@
 .secondary-header{
     width: 100%;
-    height: 10vh;
+    height: 13vh;
     left: 0px;
     top: 0px;
     font-family: Amiri;
-    background-color:rgb(151, 187, 241);
     font-weight: 100%;
+    background-color: rgb(1, 9, 22);
 
 
 }
@@ -13,6 +13,7 @@
     padding-top: 2vw;
     padding-left: 2vw;
     font-size: 0.5vw;
+    color: wheat;
 
 }
 .secondary-header .left h1{
