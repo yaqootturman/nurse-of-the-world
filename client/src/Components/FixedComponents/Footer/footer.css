@@ -1,99 +1,124 @@
 .all{
-    width: 100%;
-    bottom: 0px;
+  width: 100%;
+  bottom: 0px;
 
 }
 .footer-container {
-    display: grid;
-    grid-template-areas: 'left middle right';
-    background-color:#448FEE;
-    font-family: 'Aref Ruqaa', serif;
-    color: white;
-  } 
+  display: grid;
+  grid-template-areas: 'left middle right';
+  background-color:#448FEE;
+  font-family: 'Aref Ruqaa', serif;
+  color: white;
+  height: 60vh;
+} 
+
+.Subscribe {
+  grid-area: left;
+  text-align: center;
+
+}
+
+.Subscribe button{
+  font-weight: 1000;
+  background-color:#93EFA3;
+  font-family: 'Aref Ruqaa', serif;
+  border-bottom: #93EFA3;
+  border-right: #93EFA3;
+  border-top: #93EFA3;
+  border-left: #93EFA3;
+  font-weight: 1000;
+  height: 10%;
+  border-radius: 50%;
   
-  .Subscribe,
-  .contact-us,
-  .position {
-    padding: 10px;
-    height: 300px;
-  }
-  .Subscribe {
-    grid-area: left;
-    text-align: center;
-
-  }
-
-  .Subscribe button{
-    font-weight: 1000;
-    background-color:#93EFA3;
-    font-family: 'Aref Ruqaa', serif;
-    border-bottom: #93EFA3;
-    border-right: #93EFA3;
-    border-top: #93EFA3;
-    border-left: #93EFA3;
-    font-weight: 1000;
-    height: 10%;
-    border-radius: 50%;
-    
-    
+  
 }
 
 
 .Subscribe input{
-    width: 208px;
-    height: 29px;
+  width: 15vw;
+  height: 5vh;
 }
 
-  .contact-us {
-    grid-area: middle;
-    text-align: center;
-    display: block;
+.contact-us {
+  grid-area: middle;
+  text-align: center;
+  display: block;
 
-  }
-  .position {
-    grid-area: right;
-    text-align: center;
+}
+.position {
+  grid-area: right;
+  text-align: center;
 
 
-  }
-   hr{
-    border-top: 5px solid white;
-    width: 250px;
+}
+ hr{
+  border-top: 1vh solid white;
+  width: 15vw;
 
 }
 .position .address , .Subscribe h3, .Subscribe h4, .contact-us h3, .contact-us h4{
-    font-weight: 100;
+  font-weight: 100;
 }
 button:hover{
-    background-color: #93EFA3;
+  background-color: #93EFA3;
 }
 /*
 .soical-media hr{
-    border-top: 5px solid white;
-    width: 350px;
-    margin-left: 75%;
+  border-top: 5px solid white;
+  width: 350px;
+  margin-left: 75%;
 }
 */
 
 .soical-media ul{
-    text-align: center;
-    margin-right: 10%;
+  text-align: center;
+  margin-right: 10%;
 
 }
 .soical-media ul li{
-    display: inline;
-    margin-left: 7%;
+  display: inline;
+  margin-left: 10%;
 }
 .soical-media ul li a{
-    color: #448FEE;
-    margin-left: 1%;
+  color: #448FEE;
 }
 
 .social-network a.icofacebook:hover ,
 .social-network a.icoLinkedin:hover ,
 .social-network a.icotwitter:hover,
 .social-network a.icoinstagram:hover {
-  color:#93EFA3;
+color:#93EFA3;
 }
 
 ::selection { color: #93EFA3; }
+/* media query */
+@media only screen and (max-width: 1000px) and (min-width: 700px) {
+ 
+ 
+}
+@media (max-width: 699px) and (min-width: 300px) {
+ 
+}
+
+@media only screen and (min-width: 320px) and (max-width:589px) {
+  .Subscribe input{
+    width: 7vw;
+    height: 3vh;
+  }
+  .Subscribe,
+  .contact-us,
+  .position {
+    font-size: 2vw;
+
+}
+.footer-container{
+  height: 30vh;
+}
+.soical-media ul {
+  text-align: center;
+  margin-left: -80%;
+
+}
+
+
+}
