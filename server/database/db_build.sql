@@ -7,6 +7,7 @@ CREATE TABLE event
 (
     event_id serial primary key ,
     title VARCHAR(100) ,
+    _date DATE NOT NULL,
     content TEXT NOT NULL
 );
 
