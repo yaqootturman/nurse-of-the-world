@@ -1,0 +1,42 @@
+.secondary-header{
+    width: 100%;
+    height: 13vh;
+    left: 0px;
+    top: 0px;
+    font-family: Amiri;
+    font-weight: 100%;
+    background-color: rgb(1, 9, 22);
+
+
+}
+.secondary-header .left .icon{
+    padding-top: 2vw;
+    padding-left: 2vw;
+    font-size: 0.5vw;
+    color: wheat;
+
+}
+.secondary-header .left h1{
+    margin-left: 4vw;
+    margin-top: -2vw;
+    font-size: 1.2vw;
+    color:white;
+
+}
+.secondary-header .right{
+    text-align:right;
+    margin-top: -5vw;
+    font-size: 0.8vw;
+
+}
+.right h1{
+    color: #93EFA3;
+    margin-top: 2.3%;
+    letter-spacing: 0.7em;
+    padding-right:8vh;
+
+
+}
+.right span{
+    color: #448EFF;
+}

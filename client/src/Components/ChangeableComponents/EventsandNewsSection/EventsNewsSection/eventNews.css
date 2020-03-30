@@ -1,7 +1,8 @@
 .div-third{
-    background-color: white;
+    background-color: #448FEE;
     height: 45vw;
     margin-top: -2%;
+    
 
 }
 .div-third .tittle{
@@ -9,32 +10,35 @@
     width:25vw;
     margin-left: 38%;
     font-family: 'Aref Ruqaa', serif;
+    margin-top:-10%;
+
 }
 .div-third .tittle hr{
     width:2vw;
     height: 0.2vw;
     text-align: center;
-    background-color:black;
     width: 20vw;
+
 
 
 }
 .tittle h1{
     text-align: center;
-    padding-top: 20px;
+    margin-top:-10%;
+
 
 }
 
 .activites-shape{
     display: grid;
     grid-template-columns: auto auto auto;
+    padding-top:5%;
 }
 .activites-shape .first , .second, .third{
     background-color: gray;
-    height: 20vw;
+    height: 40vh;
     width:20vw;
-    margin-left: 20%;
-    margin-top:20%;
+    margin-left: 6.3vw;
     text-align: center;
 }
 .activites-shape h1{
@@ -45,11 +49,21 @@
     position: absolute;
     width: 235px;
     height: 59px;
-    background: #448FEE;
+    background-color:#93EFA3;
     border-right: #448FEE;
     border-left: #448FEE;
     border-top: #448FEE;
     border-bottom: #448FEE;
     border-radius: 50px;
+
+}
+#arrow-left{
+    margin-top:-54vh;
+    margin-left:3vw;
+
+}
+#arrow-right{
+    margin-top:25vh;
+    margin-left:95vw;
 
 }

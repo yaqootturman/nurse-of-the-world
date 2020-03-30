@@ -1,8 +1,9 @@
 import React ,{useRef, useEffect}from 'react';
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import {TweenMax,Power3} from 'gsap';
 import "./header.css";
 function Header(){
+
     let logoanimation = useRef(null);
     let list = useRef(null);
     useEffect(() => {
@@ -32,17 +33,49 @@ function Header(){
             <div className="container">
               <div  ref={el => (list = el)} className="list">
                 <ul>
-                    <li className="active"> <Link tolink="/home"> من  نحن</Link></li>
-                    <li className="active"> <Link tolink="/news"> الاخبار</Link> </li>
-                    <li> <Link tolink="/events"> الأحداث</Link></li>
-                    <li> <Link tolink="/articles"> المقالات</Link></li>
-                    <li> <Link tolink="/contact-us"> التواصل معنا </Link></li>
-                    <li> <Link tolink="/join-us"> <button>انضم لنا</button> </Link></li>
+                <li> <Link
+                        activeClass="active"
+                        to="section2"
+                        smooth={true}
+                        duration= {500}
+                        >من نحن </Link></li>
+                      <li> <Link
+                        activeClass="active"
+                        to="section3"
+                        smooth={true}
+                        duration= {500}
+                        >الاخبار </Link></li>
+                       <li> <Link
+                        activeClass="active"
+                        to="section4"
+                        smooth={true}
+                        duration= {500}
+                        >الأحداث</Link></li>
+                      <li> <Link
+                        activeClass="active"
+                        to="section5"
+                        smooth={true}
+                        duration= {500}
+                        >المقالات</Link> </li>
+                      <li> <Link
+                        activeClass="active"
+                        to="section6"
+                        smooth={true}
+                        duration= {500}
+                        >التواصل معنا</Link></li>
+                      <li> <Link
+                        activeClass="active"
+                        to="section7"
+                        smooth={true}
+                        duration= {500}>
+                        <button>انضم لنا</button> </Link></li>
 
                 </ul> 
               </div>
                 <div className="header-logo">
                     <h1  ref={el => (logoanimation = el)}><span>فريق</span> ممرض العالم</h1>
+                
+                   
             </div>
             </div>
         )

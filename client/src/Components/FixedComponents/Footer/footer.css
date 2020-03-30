@@ -10,12 +10,10 @@
     font-family: 'Aref Ruqaa', serif;
     color: white;
   } 
-  
   .Subscribe,
   .contact-us,
   .position {
-    padding: 10px;
-    height: 300px;
+    height: 50vh;
   }
   .Subscribe {
     grid-area: left;
@@ -40,8 +38,8 @@
 
 
 .Subscribe input{
-    width: 208px;
-    height: 29px;
+    width: 15vw;
+    height: 5vh;
 }
 
   .contact-us {
@@ -57,8 +55,8 @@
 
   }
    hr{
-    border-top: 5px solid white;
-    width: 250px;
+    border-top: 1vh solid white;
+    width: 15vw;
 
 }
 .position .address , .Subscribe h3, .Subscribe h4, .contact-us h3, .contact-us h4{
