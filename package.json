@@ -25,10 +25,11 @@
   "express": "^4.17.1",
   "homepage": "https://github.com/yaqootturman/nurse-of-the-world#readme",
   "dependencies": {
+    "axios": "^0.19.2",
     "concurrently": "^5.1.0",
+    "env2": "^2.2.2",
     "express": "^4.17.1",
     "nodemon": "^2.0.2",
-    "env2": "^2.2.2",
     "pg": "^7.18.2"
   },
   "devDependencies": {
