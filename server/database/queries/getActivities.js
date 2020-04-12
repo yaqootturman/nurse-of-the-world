@@ -1,10 +1,11 @@
 const dbConnection = require('./../db_connection')
 
 const getActivities = () => {
-  return dbConnection
-    .query('SELECT * FROM article')
-    .then(res => res.rows)
-    .catch(err => console.log(err))
-}
 
+  return dbConnection
+    .query('SELECT * FROM activity')
+    .then(res => res.rows)
+
+
+}
 module.exports = getActivities

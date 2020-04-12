@@ -1,10 +1,11 @@
 const dbConnection = require('./../db_connection')
 
-const getEvent = () => {
+const getEvents = () => {
+
   return dbConnection
-    .query('SELECT * FROM article')
+    .query('SELECT * FROM event')
     .then(res => res.rows)
-    .catch(err => console.log(err))
+
 }
 
-module.exports = getEvent
+module.exports = getEvents
