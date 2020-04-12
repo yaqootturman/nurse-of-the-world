@@ -4,8 +4,9 @@ const getEvents = require('../database/queries/getEvents')
 
 exports.getAll = (req, res) => {
 
-  const allInfo = Promise.all([getActivities, getArticles, getEvents])
-  allInfo.then(result => res.json(result))
+
+  Promise.all([getActivities(), getArticles(), getEvents()]).then(result => res.json(result)
+  )
     .catch(error => console.log(error)
 
     )
