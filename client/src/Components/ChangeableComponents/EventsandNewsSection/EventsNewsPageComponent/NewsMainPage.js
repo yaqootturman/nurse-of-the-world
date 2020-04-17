@@ -1,58 +1,74 @@
-import React from 'react';
+import React, {Component} from 'react';
+import axios from 'axios';
 import SecondaryHeader from '../../SecondaryHeader/SecondaryHeader';
 import Footer from '../../../FixedComponents/Footer/Footer';
+import PopUp from './PopUp';
 import './newsmainpage.css';
     
     
 
-function NewsMainPage(){   
+class NewsMainPage extends Component{  
+    constructor(props){
+        super(props);
+    this.state ={
+        activitesData: [],
+        showPopup: false,
+     
+    }
+} 
+    componentDidMount(){
+        axios.get('/api/home').then(({ data }) =>{
+            this.setState({ activitesData: data[0] })
+        })
+        .catch(error =>{
+            console.log(error);
+        })
+    }
+    togglePopup() {  
+        this.setState({  
+             showPopup: !this.state.showPopup  
+        });  
+         } 
+
+
+    render(){
+        console.log(this.state.activitesData);
+     
+
     window.scroll({
         top: 0, 
-      });   
+      });  
+
         return(
             <>
                 <SecondaryHeader></SecondaryHeader>
                 <div className="news-all">
-                    <div className="boxs">
+                    <div className="boxs">                       
                        <h1>جميع الأحداث</h1>
                         <div class="flex-container">
-                        <div className="article1">1
-                            <h1>kdkdk</h1>
+                        {this.state.activitesData.map(activity =>
+
+                        <div className="article1">
+                            <h1 key={activity.activity_id}>{activity.title}</h1>
+                         
                         </div>
-                        <div className="article1">2
-                            <h1>kdkdk</h1>
-                        </div>
-                        <div className="article1">3
-                            <h1>kdkdk</h1>
+
+                        
+                         )}
+                    {this.state.activitesData.map(activity =>
+                        <button onClick={this.togglePopup.bind(this)}>   
+                        {this.state.showPopup ? <PopUp  
+                        text={activity.content}
+                        unique={activity.activity_id}  
+                        closePopup={this.togglePopup.bind(this)} />  
+                        : null  
+                    }  
+                    {activity.activity_id}</button>
+                     )}
+
+                     
                         </div>  
-                        <div className="article1">4
-                            <h1>kdkdk</h1>
-                        </div>
-                        <div className="article1">5
-                            <h1>kdkdk</h1>
-                        </div>
-                        <div className="article1">6
-                            <h1>kdkdk</h1>
-                        </div>  
-                        <div className="article1">7
-                            <h1>kdkdk</h1>       
-                        </div>
-                        <div className="article1">8
-                            <h1>kdkdk</h1>
-                        </div>
-                        <div className="article1">9
-                            <h1>kdkdk</h1>
-                        </div>  
-                        <div className="article1">10
-                            <h1>kdkdk</h1>
-                        </div>
-                        <div className="article1">11
-                            <h1>kdkdk</h1>
-                        </div>
-                        <div className="article1">12   
-                            <h1>kdkdk</h1>
-                        </div>  
-                        </div>                        
+                        
                     </div>
                         
                 </div>
@@ -61,5 +77,6 @@ function NewsMainPage(){
            </>
         )
     }
+}
 
 export default NewsMainPage;
