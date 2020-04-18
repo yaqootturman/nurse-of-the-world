@@ -1,13 +1,50 @@
-import React from 'react';
+import React, { Component } from 'react';
+import axios from 'axios';
 import SecondaryHeader from '../../SecondaryHeader/SecondaryHeader';
 import Footer from '../../../FixedComponents/Footer/Footer';
 import '../../EventsandNewsSection/EventsNewsPageComponent/newsmainpage.css';
+import { Link }from 'react-router-dom';
+import ArticleLayout from './ArticleLayout';
     
 
-function AllArticles() {
-    window.scroll({
-        top: 0, 
-      });
+class AllArticles extends Component {
+    state ={
+        articleData: [],
+        showArticleLayout: false,
+        numberButton: null,
+
+    };
+   
+
+     componentDidMount(){
+        axios.get('/api/home').then(({ data }) => {
+            this.setState({articleData: data[1]});
+        
+         })
+         .catch(error => {
+            console.log("something error", error.response);
+        })
+    }
+    toggleShowArticleLayout(value){
+        this.setState({
+            showArticleLayout: !this.state.showArticleLayout,
+            numberButton: value -1,
+
+            })
+    }
+    closePopup() {
+        this.setState({
+            showPopup: false,
+        })
+    }
+      render(){
+        window.scroll({
+            top: 0, 
+          }); 
+          console.log(this.state.articleData);
+          console.log(this.state.numberButton, "numberButton")
+
+
      return (
         <>
                 <SecondaryHeader></SecondaryHeader>
@@ -15,42 +52,25 @@ function AllArticles() {
                     <div className="boxs">
                        <h1>جميع المقالات</h1>
                         <div class="flex-container">
-                        <div className="article1">1
-                            <h1>kdkdk</h1>
-                        </div>
-                        <div className="article1">2
-                            <h1>kdkdk</h1>
-                        </div>
-                        <div className="article1">3
-                            <h1>kdkdk</h1>
-                        </div>  
-                        <div className="article1">4
-                            <h1>kdkdk</h1>
-                        </div>
-                        <div className="article1">5
-                            <h1>kdkdk</h1>
-                        </div>
-                        <div className="article1">6
-                            <h1>kdkdk</h1>
-                        </div>  
-                        <div className="article1">7
-                            <h1>kdkdk</h1>       
-                        </div>
-                        <div className="article1">8
-                            <h1>kdkdk</h1>
-                        </div>
-                        <div className="article1">9
-                            <h1>kdkdk</h1>
-                        </div>  
-                        <div className="article1">10
-                            <h1>kdkdk</h1>
-                        </div>
-                        <div className="article1">11
-                            <h1>kdkdk</h1>
-                        </div>
-                        <div className="article1">12   
-                            <h1>kdkdk</h1>
-                        </div>  
+                            {this.state.articleData.map(article =>
+                            <div className="article1">
+                                <h1>{ article.title}</h1>
+                                <button onClick ={()=> this.toggleShowArticleLayout(article.article_id)}> 
+                                    {this.state.showArticleLayout ?
+                                    <ArticleLayout
+                                    closePopup={this.closePopup.bind(this)}
+                                    unique={article.article_id}
+                                    header ={this.state.articleData && this.state.articleData[this.state.numberButton].title }
+                                    text ={this.state.articleData && this.state.articleData[this.state.numberButton].content }
+                                     />
+                                    :
+                                    null
+
+                                    }
+                               Open the article </button>
+                            </div>
+                            )}
+                     
                         </div>                        
                     </div>
                         
@@ -61,6 +81,7 @@ function AllArticles() {
 </>
   
   );
+}
 }
 
 export default AllArticles;
