@@ -41,8 +41,6 @@ class AllArticles extends Component {
         window.scroll({
             top: 0, 
           }); 
-          console.log(this.state.articleData);
-          console.log(this.state.numberButton, "numberButton")
 
 
      return (

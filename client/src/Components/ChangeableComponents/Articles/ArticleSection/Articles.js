@@ -4,9 +4,7 @@ import {Link} from 'react-router-dom';
 
 
 class Articles extends Component{  
-  //articlesData
   render(){
-    console.log(this.props.articlesData);
 
         return(
             <div id="section5" className="div-fourth">

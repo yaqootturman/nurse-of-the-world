@@ -9,9 +9,9 @@ function ArticleLayout(props){
                   <p> {props.text} </p>
                  
              </div>
-             <button>
-                 close
-             </button>  
+             <button onClick={props.closePopup}>
+                     close
+            </button>  
         </div>  
     </div>  
     )
