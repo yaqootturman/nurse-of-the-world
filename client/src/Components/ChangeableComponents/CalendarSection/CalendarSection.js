@@ -3,24 +3,13 @@ import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 import './calendar.css'
 
- 
 class CalendarSection extends Component {
 
-  state = {
-    date: new Date(),
-  }
- 
-  onChange = date => this.setState({ date })
-
-  render() {
+   render() {
     return (
       <div className="calander-container" id="section4">
-        <div className="Calendar">
-            <Calendar
-              onChange={this.onChange}
-              value={this.state.date}
-            />
-          </div>
+        
+         
         <div className="tittle">
          
           <h1 className="last-h1">
@@ -39,7 +28,8 @@ class CalendarSection extends Component {
 
 
         </div>
-      </div>
+         </div>
+    
     );
   }
 }
