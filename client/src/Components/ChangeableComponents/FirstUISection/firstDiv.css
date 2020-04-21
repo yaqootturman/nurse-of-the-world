@@ -1,6 +1,6 @@
 .div-one{
     background-color: white;
-    height: 50vw;
+    height: 150vh;
 
 }
 .div-one .paragraph {
@@ -33,9 +33,7 @@
     font-weight: 1000;
     font-size: 1.4vw;
     }
-.div-one button:hover {
-    transform: scale(1.2);
-}
+
 .div-one-logo img{
     width: 30vw;
     height: 60vh;

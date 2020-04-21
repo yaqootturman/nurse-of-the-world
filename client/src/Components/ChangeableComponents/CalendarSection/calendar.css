@@ -1,6 +1,8 @@
  /**/
  .calander-container{
-    height: 45vw;
+    height: 120vh;
+    font-family: Amiri;
+
 }
   .calander-container {
     background: black url(https://subtlepatterns.com/patterns/geometry2.png) repeat 0 0;
@@ -16,25 +18,13 @@
 
 
 }
-.Calendar{
-    margin-left: 30vh;
-    margin-top: 15vh;
-
-
-}
 .last-h1{
-    margin-top:20vw;
-    font-family: Amiri;
     margin-left:30vw;
-
-
 }
 .first-h1{
-    margin-top:5vw;
     margin-left:60vw;
-
+    padding-top: 20vh;
 }
 .second-h1{
     margin-left:30vw;
-
 }

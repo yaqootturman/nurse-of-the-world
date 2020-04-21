@@ -1,20 +1,18 @@
 .div-third{
     background-color: #448FEE;
-    height: 45vw;
-    margin-top: -2%;
+    height: 100vh;
+    font-family: 'Aref Ruqaa', serif;
+
     
 
 }
 .div-third .tittle{
-    height: 4vw;
     width:25vw;
     margin-left: 38%;
-    font-family: 'Aref Ruqaa', serif;
-    margin-top:-10%;
+    padding-top: 13vh;
 
 }
 .div-third .tittle hr{
-    width:2vw;
     height: 0.2vw;
     text-align: center;
     width: 20vw;
@@ -24,18 +22,18 @@
 }
 .tittle h1{
     text-align: center;
-    margin-top:-10%;
 
 
 }
 
 .activites-shape{
+    padding-top: 4vh;
     display: grid;
     grid-template-columns: auto auto auto;
-    padding-top:5%;
 }
-.activites-shape .first , .second, .third{
-    background-color: gray;
+.activites-shape .first{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid rgba(0, 0, 0, 0.8);
     height: 40vh;
     width:20vw;
     margin-left: 6.3vw;
@@ -55,15 +53,7 @@
     border-top: #448FEE;
     border-bottom: #448FEE;
     border-radius: 50px;
+    margin-top: 2vw;
 
-}
-#arrow-left{
-    margin-top:-54vh;
-    margin-left:3vw;
-
-}
-#arrow-right{
-    margin-top:25vh;
-    margin-left:95vw;
 
 }

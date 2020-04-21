@@ -4,12 +4,16 @@ import "./eventNews.css";
 class EventNews extends Component{
     //eventsData
     render(){
-        
+        var settings = {
+            dots: true,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 1,
+            slidesToScroll: 1
+          };
 
         return(
             <div id="section3" className="div-third">
-            <i id="arrow-left" class="fas fa-arrow-left"></i>
-                 <i id="arrow-right" class="fas fa-arrow-right"></i>
                 <div className="tittle">
                     <h1>قسم الأنشطة والأخبار</h1>
                     <hr></hr> <hr></hr>
