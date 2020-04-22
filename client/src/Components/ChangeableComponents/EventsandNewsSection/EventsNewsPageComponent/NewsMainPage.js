@@ -37,26 +37,26 @@ class NewsMainPage extends Component {
         window.scroll({
             top: 0,
         });
-        console.log(this.state.numberButton, "numberButton")
         return (
             <>
                 <SecondaryHeader />
                 <div className="news-all">
-                    <div className="boxs" style={{ justifyContent: 'center', textAlign: 'center' }}>
+                    <div className="boxs">
                         <h1>جميع الأحداث</h1>
                         <div class="flex-container">
-                            {this.state.activitesData.map(ele => {
+                            {this.state.activitesData.map(element => {
                                 return (
-                                    <div style={{ backgroundColor: 'grey', width: '200px', height: 'auto' }}>
-                                        < h1 > {ele.title}</h1>
-                                        <button onClick={() => this.togglePopup(ele.activity_id)}>
+                                    <div className="article1">
+                                        <h1> {element.title}</h1>
+                                        <button onClick={() => this.togglePopup(element.activity_id)}>
                                             {this.state.showPopup ? <PopUp
                                                 text={this.state.activitesData && this.state.activitesData[this.state.numberButton].content}
-                                                unique={ele.activity_id}
-                                                closePopup={this.closePopup.bind(this)} />
+                                                unique={element.activity_id}
+                                                closePopup={this.closePopup.bind(this)}
+                                                title ={this.state.activitesData[this.state.numberButton].title} />
                                                 : null
                                             }
-                                            {ele.activity_id}</button>
+                                            {element.activity_id}</button>
                                     </div>
                                 )
                             })}

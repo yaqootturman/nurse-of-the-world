@@ -6,7 +6,7 @@ function Popup(props){
         <div className='popup'>  
             <div className='inner'> 
                   <div className="content">
-                  <h1>jjdd</h1>
+                  <h1>{props.title}</h1>
                   <p key={props.unique}>{props.text}</p>
                      
                  </div>
