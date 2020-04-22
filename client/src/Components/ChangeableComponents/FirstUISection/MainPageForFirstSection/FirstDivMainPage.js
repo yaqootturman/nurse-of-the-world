@@ -19,16 +19,16 @@ function FirstDivMainPage(){
                 </div>
                 <div className="icons">
                     <div className="first-icon">
-                            <a className="hover1" title="من نحن؟">
-                            <i class="fas fa-users fa-3x"></i>
+                            <a href="/" className="hover1" title="من نحن؟">
+                            <i className="fas fa-users fa-3x"></i>
                                 <h1>فريق شبابي طبي تأسس في أكتوبر 2017 نتطلع إلى تطوير المعرفة العلمية والكفاءة العملية
                     والتنمية لدى طلبة الجامعات ونشر الوعي الصحي في المجتمع</h1>
                             </a>
                             
                     </div>
                     <div className="second-icon">
-                           <a className="hover2" title="رؤية الفريق" >  
-                           <i class="fas fa-eye fa-3x"></i>
+                           <a href="/" className="hover2" title="رؤية الفريق" >  
+                           <i className="fas fa-eye fa-3x"></i>
                                 <h1>
                                     مجتمع معرفي يتبنى الحوار ويقدر العلم والصحة وله دور فعّال في تمكين الشباب وتحفيزهم
                                 </h1>
@@ -36,7 +36,7 @@ function FirstDivMainPage(){
                             
                     </div>
                     <div className="third-icon">
-                        <a className="hover3" title="القيم">
+                        <a href="/" className="hover3" title="القيم">
                         <i className="fas fa-bullseye-arrow fa-3x"></i>
                         <h1>
                                     <li> الحوار وإنتاج المعرفة</li> 
@@ -50,8 +50,8 @@ function FirstDivMainPage(){
                           
                         </div>
                     <div className="fourth-icon">
-                            <a className="hover4" title="أهداف الفريق">
-                            <i class="fas fa-file fa-3x"></i>
+                            <a href="/#" className="hover4" title="أهداف الفريق">
+                            <i className="fas fa-file fa-3x"></i>
                             <h1>
                                     <li>تحفيز مشاركة الشباب في المجتمع</li>
                                     <li>زيادة وتحسين المعرفة العلمية والمهنية لدى طلبة الجامعات</li>

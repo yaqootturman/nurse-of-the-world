@@ -3,7 +3,6 @@ import axios from 'axios';
 import SecondaryHeader from '../../SecondaryHeader/SecondaryHeader';
 import Footer from '../../../FixedComponents/Footer/Footer';
 import '../../EventsandNewsSection/EventsNewsPageComponent/newsmainpage.css';
-import { Link }from 'react-router-dom';
 import ArticleLayout from './ArticleLayout';
     
 
@@ -49,7 +48,7 @@ class AllArticles extends Component {
                 <div className="news-all">
                     <div className="boxs">
                        <h1>جميع المقالات</h1>
-                        <div class="flex-container">
+                        <div className="flex-container">
                             {this.state.articleData.map(article =>
                             <div className="article1">
                                 <h1>{ article.title}</h1>
