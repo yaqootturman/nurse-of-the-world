@@ -33,7 +33,7 @@ function FirstDiv(){
 
             <div className="div-one">
                 <div className="div-one-logo">
-                    <img  ref={el => (home = el) } src={homeLogo}></img>
+                    <img alt="logo" ref={el => (home = el) } src={homeLogo}></img>
                 </div>
                 <div className="paragraph">
                     <p ref={el => (breif = el)}>مهتمنا هي  تعزيز كفاءة التعليم والتدريب والدور القيادي للشباب عن طريق دعم جيل جديد من الشباب ليصبحوا قادة متعلمين ، مهنيين مهرة ، ورواداَ يلهمون أفراد عائلاتهم للتكاثف وتحقيق الازدهار</p>
