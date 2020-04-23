@@ -3,7 +3,6 @@ import axios from 'axios';
 import SecondaryHeader from '../../SecondaryHeader/SecondaryHeader';
 import Footer from '../../../FixedComponents/Footer/Footer';
 import '../../EventsandNewsSection/EventsNewsPageComponent/newsmainpage.css';
-import { Link }from 'react-router-dom';
 import ArticleLayout from './ArticleLayout';
     
 
