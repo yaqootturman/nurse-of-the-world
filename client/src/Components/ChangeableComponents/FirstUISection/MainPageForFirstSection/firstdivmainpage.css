@@ -1,11 +1,9 @@
 .all-page{
-    height:50vw;
+    height:110vw;
 
 }
 .div-second{
     margin-top: -5vh; 
-    width: 100%;
-    height: 100vh;
     font-family: 'Aref Ruqaa', serif; 
     background: linear-gradient(-45deg, #0000 0%, #448EFF 13%, #0000 25%, white 38%, rgb(145, 180, 233) 50%, rgb(173, 230, 182) 62%, white 75%, #0000 87%, #448EFF 100%);;
     background-size: 400% 400%;
@@ -33,16 +31,14 @@
 
 }
 .icons{
-    padding-top: 10vh;
     display: grid;
-    grid-template-columns: auto auto auto auto;
-
+    text-align: right;
+    margin-left: 70vw;
 }
 .icons .first-icon ,.icons .second-icon , .icons .third-icon , .icons .fourth-icon{
     font-size: 0.7vw;
     width:20vw;
-    height: 10vh;
-    text-align: right;
+    margin-top: 5vw;
 
     
 }
