@@ -43,7 +43,7 @@ class NewsMainPage extends Component {
                 <div className="news-all">
                     <div className="boxs">
                         <h1>جميع الأحداث</h1>
-                        <div class="flex-container">
+                        <div className="flex-container">
                             {this.state.activitesData.map(element => {
                                 return (
                                     <div className="article1">

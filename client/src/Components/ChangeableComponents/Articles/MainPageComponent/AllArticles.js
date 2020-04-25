@@ -48,7 +48,7 @@ class AllArticles extends Component {
                 <div className="news-all">
                     <div className="boxs">
                        <h1>جميع المقالات</h1>
-                        <div class="flex-container">
+                        <div className="flex-container">
                             {this.state.articleData.map(article =>
                             <div className="article1">
                                 <h1>{ article.title}</h1>

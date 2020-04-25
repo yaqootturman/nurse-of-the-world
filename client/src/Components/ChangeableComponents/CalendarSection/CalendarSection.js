@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 import './calendar.css'
 
@@ -15,9 +14,8 @@ class CalendarSection extends Component {
           </h1>
          
           <h1 className="second-h1">
-            <mark>
-            ...إذاََ
-            </mark>
+           ...إذاََ
+            
             </h1>
         
 
