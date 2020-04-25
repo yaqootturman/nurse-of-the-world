@@ -36,8 +36,8 @@
     }
 
 .div-one-logo img{
-    width: 30vw;
-    height: 60vh;
+    width: 25vw;
+    height: 55vh;
     opacity: 0;
     margin-top:29vh;
     margin-left: 60vw;
@@ -69,8 +69,9 @@
         margin-top:20vw;
         margin-left: 60vw;
     }
-}
-
+  }
+   
+   
 @media (max-width: 1200px) and (min-width: 994px) {
     .div-one-logo img{
         margin-left: 60vw;
@@ -102,3 +103,5 @@
     }
 
 }
+
+  
