@@ -14,9 +14,8 @@ class CalendarSection extends Component {
           </h1>
          
           <h1 className="second-h1">
-            <mark>
-            ...إذاََ
-            </mark>
+           ...إذاََ
+            
             </h1>
         
 
