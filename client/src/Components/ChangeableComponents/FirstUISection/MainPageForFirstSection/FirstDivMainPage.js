@@ -4,6 +4,7 @@ import Footer from '../../../FixedComponents/Footer/Footer';
 import "./firstdivmainpage.css";
 
 
+
 function FirstDivMainPage(){
     window.scroll({
         top: 0, 
@@ -19,24 +20,24 @@ function FirstDivMainPage(){
                 </div>
                 <div className="icons">
                     <div className="first-icon">
-                            <a href="/" className="hover1" title="من نحن؟">
-                            <i className="fas fa-users fa-3x"></i>
+                            <div className="hover1" title="من نحن؟">
+                                <i className="fas fa-users fa-3x"></i>
                                 <h1>فريق شبابي طبي تأسس في أكتوبر 2017 نتطلع إلى تطوير المعرفة العلمية والكفاءة العملية
                     والتنمية لدى طلبة الجامعات ونشر الوعي الصحي في المجتمع</h1>
-                            </a>
+                            </div>
                             
                     </div>
                     <div className="second-icon">
-                           <a href="/" className="hover2" title="رؤية الفريق" >  
+                           <div className="hover2" title="رؤية الفريق" >  
                            <i className="fas fa-eye fa-3x"></i>
                                 <h1>
                                     مجتمع معرفي يتبنى الحوار ويقدر العلم والصحة وله دور فعّال في تمكين الشباب وتحفيزهم
                                 </h1>
-                            </a>
+                            </div>
                             
                     </div>
                     <div className="third-icon">
-                        <a href="/" className="hover3" title="القيم">
+                        <div className="hover3" title="القيم">
                         <i className="fas fa-bullseye-arrow fa-3x"></i>
                         <h1>
                                     <li> الحوار وإنتاج المعرفة</li> 
@@ -45,12 +46,12 @@ function FirstDivMainPage(){
                                     <li>  الاعتمادية والكفاءة</li>   
                                     <li>القيادة المشتركة </li>
 
-                        </h1>
-                        </a>
+                       </h1>
+                        </div>
                           
                         </div>
                     <div className="fourth-icon">
-                            <a href="/#" className="hover4" title="أهداف الفريق">
+                            <div className="hover4" title="أهداف الفريق">
                             <i className="fas fa-file fa-3x"></i>
                             <h1>
                                     <li>تحفيز مشاركة الشباب في المجتمع</li>
@@ -59,7 +60,7 @@ function FirstDivMainPage(){
                                     <li>تمكين أدوار الشباب عن طريق دمجهم في برامج وفعاليات ضمن المجتمع</li>
                                     <li>توسيع الفريق وزيادة قدراته وإمكانياته</li>
                             </h1>
-                            </a>
+                            </div>
                            
                     </div>
                       
