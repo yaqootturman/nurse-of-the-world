@@ -40,7 +40,7 @@ class Home extends Component {
         return (
             <>
                 <Header></Header>
-                <div id="section2" class="all-home">
+                <div id="section2" className="all-home">
                     <FirstDiv> </FirstDiv>
                     <EventNews eventsData={this.state.activites}></EventNews>
                     <CalendarSection calendarData={this.state.events}></CalendarSection>

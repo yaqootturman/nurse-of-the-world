@@ -53,6 +53,9 @@
 .list{
     opacity: 0;
 }
+.container .header-logo{
+    font-size: 1vw;
+}
 
 .container .header-logo h1{
     color: #93EFA3;
