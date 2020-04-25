@@ -35,8 +35,8 @@
     }
 
 .div-one-logo img{
-    width: 30vw;
-    height: 60vh;
+    width: 25vw;
+    height: 55vh;
     opacity: 0;
     margin-top:29vh;
     margin-left: 60vw;
@@ -47,8 +47,6 @@
     width: 20px;
     height: 20px;
     }
-    .div-one button:hover {
-        transform: scale(0.4);
-    }
+   
    
   }
