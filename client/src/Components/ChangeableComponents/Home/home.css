@@ -1,5 +1,5 @@
 .all-home{
-    height:241vw;
+    height:570vh;
     background-color: white;
     
     }
@@ -11,4 +11,12 @@
     ::selection {
         color: #448FEE;
         background: #93EFA3;
+      }
+      @media (max-width: 600px) and (min-width: 399px) {
+        .all-home{
+            height: 300vw;
+            background-color: white;
+            
+            }
+
       }

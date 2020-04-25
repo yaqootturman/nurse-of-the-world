@@ -1,9 +1,9 @@
 .div-sixth{
     background-color: white;
-    height: 45vw;
+    height: 40vh;
     font-family: 'Aref Ruqaa', serif;
     text-align: center;
-    font-size: 2em;
+    font-size: 2.1vw;
     padding-top: 1%;
 
     
@@ -15,13 +15,51 @@ mark{
     background-color:#448FEE;
 }
 .div-sixth button{
-    width: 235px;
-    height: 59px;
+    width: 20vw;
+    height: 10vh;
     background: #448FEE;
-    border-bottom: #448FEE;
+    border-bottom: rgb(106, 108, 110);
     border-right: #448FEE;
     border-radius: 50px; 
-    font-size: 1em;
-    font-family: 'Aref Ruqaa', serif;
+    font-size: 3vw;
+   
 
 }
+/* media query */
+@media only screen and (max-width: 1000px) and (min-width: 700px) {
+ 
+    
+   
+}
+@media (max-width: 600px) and (min-width: 399px) {
+    .div-sixth{
+        background-color: white;
+        height: 20vw;
+    
+        
+    }
+    
+    .div-sixth button{
+        width: 20vw;
+        height: 8vh;
+    
+    }
+    .div-sixth h1{
+        padding-top: 20vw;
+    }
+  
+}
+
+@media only screen and (max-width:400px) {
+    .div-sixth button{
+        width: 20vw;
+        height: 5vh;
+        font-size: 1.5vw;
+    
+    }
+    .div-sixth h1{
+        padding-top: 10vw;
+    }
+   
+ 
+  }

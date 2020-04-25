@@ -40,3 +40,28 @@
 .right span{
     color: #448EFF;
 }
+
+@media (max-width: 600px) and (min-width: 400px) {
+    .secondary-header{
+        height: 5vw;
+    
+    }
+
+  
+}
+@media (max-width: 1200px) and (min-width: 991px) {
+    .secondary-header{
+        height: 5vw;
+    }
+
+}
+@media (max-width: 990px) and (min-width: 601px) {
+    .secondary-header{
+        height: 5vw;
+    
+    }
+
+  
+    }
+
+

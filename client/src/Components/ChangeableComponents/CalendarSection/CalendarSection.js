@@ -8,13 +8,12 @@ class CalendarSection extends Component {
    render() {
     return (
       <div className="calander-container" id="section4">
-        
          
         <div className="tittle">
-         
-          <h1 className="last-h1">
-              تعرف على مواعيد أنشطتنا بدقة  
+        <h1 className="first-h1">
+              لا تريد أن تفوت نشاط معنا؟
           </h1>
+         
           <h1 className="second-h1">
             <mark>
             ...إذاََ
@@ -22,8 +21,8 @@ class CalendarSection extends Component {
             </h1>
         
 
-          <h1 className="first-h1">
-              لا تريد أن تفوت نشاط معنا؟
+            <h1 className="last-h1">
+              تعرف على مواعيد أنشطتنا بدقة  
           </h1>
 
 
