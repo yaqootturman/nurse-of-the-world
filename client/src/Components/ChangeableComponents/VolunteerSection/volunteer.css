@@ -3,7 +3,7 @@
     height: 40vh;
     font-family: 'Aref Ruqaa', serif;
     text-align: center;
-    font-size: 2em;
+    font-size: 2.1vw;
     padding-top: 1%;
 
     
@@ -22,9 +22,51 @@ mark{
     font-weight: 1000;
     font-size: 1.4vw;
     background: #448FEE;
-    border-bottom: #448FEE;
+    border-bottom: rgb(106, 108, 110);
     border-right: #448FEE;
     font-size: 2vw;
     margin-left: -10vw;
 
 }
+
+   
+
+
+/* media query */
+@media only screen and (max-width: 1000px) and (min-width: 700px) {
+ 
+    
+   
+}
+@media (max-width: 600px) and (min-width: 399px) {
+    .div-sixth{
+        background-color: white;
+        height: 20vw;
+    
+        
+    }
+    
+    .div-sixth button{
+        width: 20vw;
+        height: 8vh;
+    
+    }
+    .div-sixth h1{
+        padding-top: 20vw;
+    }
+  
+}
+
+@media only screen and (max-width:400px) {
+    .div-sixth button{
+        width: 20vw;
+        height: 5vh;
+        font-size: 1.5vw;
+    
+    }
+    .div-sixth h1{
+        padding-top: 10vw;
+    }
+   
+ 
+  }

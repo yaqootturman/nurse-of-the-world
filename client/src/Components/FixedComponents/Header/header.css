@@ -11,15 +11,15 @@
 
 }
 .container ul{
-    padding-right: 40px;
+    padding-right: 4vw;
     list-style: none;
-    font-size: 1.2em;
+    font-size: 1.5vw;
     font-weight: 1000;
     margin-top: -20px;
 }
 .container ul li{
     float: right;
-    padding: 23px;    
+    padding: 2vw;    
 }
 .container ul li a{
     color:white;
@@ -33,10 +33,9 @@
 }
 
 
-.header-logo h1{
-    margin-top: 1.2%;
-    margin-left: 2%;
-    color:white;
+.header-logo{
+    font-size: 2vw;
+    margin-top: -5vh;
 }
 
 .list button{
@@ -60,64 +59,89 @@
 
 .container .header-logo h1{
     color: #93EFA3;
-    margin-left: 5%;
-    margin-top: 2.3%;
+    margin-left: 6vh;
+    margin-top: 10vh;
     letter-spacing: 0.2em;
-
+    font-size: 2vw;
 }
 .container .header-logo span{
     color: #448EFF;
 }
 /* media query */
-@media only screen and (max-width: 1000px) and (min-width: 700px) {
-    .container{
-        font-size: 10px;
-    }
-    .container .list button{
-        width: 50px;
-        height: 20px;
-        font-size: 9px;
 
-    }
+@media (max-width: 699px) and (min-width: 400px) {
+    .container{
+        height: 8vw;
+       }
+     .container ul{
+        margin-top: -1vw;    
+
+
+     }
+       .container ul li{
+           padding: 1.5vw;    
+       }    
+       .header-logo{
+           font-size: 2vw;
+           margin-top: -7vh;
+       }
+       
+       .list button{
+           width: 12vw;
+           height: 3vw;
+           font-size: 1vw;
+         
+       
+       }
+       .list{
+           opacity: 0;
+       }
+       
+       .container .header-logo h1{
+           color: #93EFA3;
+           margin-left: 6vh;
+           margin-top: 10vh;
+           letter-spacing: 0.2em;
+           font-size: 2vw;
+       }
+       .container .header-logo span{
+           color: #448EFF;
+       }
    
 }
-@media (max-width: 699px) and (min-width: 300px) {
-    .container{
-        font-size: 5px;
-        height: 40px;
-    }
-    .container .list button{
-        width: 25px;
-        height: 10px;
-        font-size: 4px;
+@media (max-width: 990px) and (min-width: 700px) {
 
+    .container{
+     height: 8vw;
     }
   
-}
-::selection{
-    color: white;
-}
-
-@media only screen and (min-width: 320px) and (max-width:589px) {
-    .container{
-        height: 5%;
-        
+    .container ul li{
+        padding: 2vw;    
+    }    
+    .header-logo{
+        font-size: 2vw;
+        margin-top: -5vh;
     }
-    ul{
-         margin-right: -40px;
-    }
-    ul li{
-        float: right;
-        margin-left: -30px;
-        font-size: 0.7em;
-
-    }
+    
     .list button{
-        width: 30px;
-        height: 10px;
-        font-size: 0.7em;
-     
+        width: 12vw;
+        height: 6vh;
+      
     
     }
- 
-  }
+    .list{
+        opacity: 0;
+    }
+    
+    .container .header-logo h1{
+        color: #93EFA3;
+        margin-left: 6vh;
+        margin-top: 10vh;
+        letter-spacing: 0.2em;
+        font-size: 2vw;
+    }
+    .container .header-logo span{
+        color: #448EFF;
+    }
+
+}

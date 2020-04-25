@@ -1,15 +1,16 @@
 .div-one{
     background-color: white;
     height: 150vh;
+    font-family: 'Aref Ruqaa', serif;
+
 
 }
 .div-one .paragraph {
     position: absolute;
-    padding-top:14%;
-    margin-left: 7%;
+    padding-top: 30vh;
+    margin-left: 7vw;
     width:48vw;
     height: 250vw; 
-    font-family: 'Aref Ruqaa', serif;
 
 }   
 .div-one .paragraph p{
@@ -42,11 +43,64 @@
     margin-left: 60vw;
     position: absolute;    
 }
-@media only screen and (min-width: 320px) and (max-width:589px) {
-    .div-one-logo img{
-    width: 20px;
-    height: 20px;
+
+  @media (max-width: 600px) and (min-width: 399px) {
+    .div-one{
+        height: 80vw;
+    
+    
     }
+    .div-one .paragraph p{
+        text-align: center;
+        text-align: right;
+        margin-top: -3vw;
+
+            
+        }
+    .div-one .paragraph button{
+        width:20vw;
+        height: 9vh;
+        margin-top: 1vw;
+       
+    }
+    .div-one-logo img{
+        width: 30vw;
+        height: 30vw;
+        margin-top:20vw;
+        margin-left: 60vw;
+    }
+
    
    
-  }
+@media (max-width: 1200px) and (min-width: 994px) {
+    .div-one-logo img{
+        margin-left: 60vw;
+    }
+
+}
+@media (max-width: 990px) and (min-width: 601px) {
+
+    .div-one{
+        height: 100vw;    
+    }
+    .div-one .paragraph {
+        padding-top: 40vh;
+    }   
+  
+    .div-one-logo img{
+        width: 30vw;
+        height: 60vh;
+        opacity: 0;
+        margin-top:40vh;
+        margin-left: 60vw;
+        position: absolute;    
+    }
+}
+@media only screen and (max-width:400px) {
+    .div-one .paragraph button{
+        height:7vw;
+        width: 20vw;
+    }
+
+}
+

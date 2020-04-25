@@ -65,13 +65,6 @@
 button:hover{
     background-color: #93EFA3;
 }
-/*
-.soical-media hr{
-    border-top: 5px solid white;
-    width: 350px;
-    margin-left: 75%;
-}
-*/
 
 .soical-media ul{
     text-align: center;
@@ -95,4 +88,76 @@ button:hover{
 }
 .social-network a.icofacebook{
   color:blue;
+}
+
+::selection { color: #93EFA3; }
+/* media query */
+@media only screen and (max-width: 1000px) and (min-width: 700px) {
+ 
+    
+   
+}
+@media (max-width: 600px) and (min-width: 399px) {
+  .all{
+  font-size: 2vw;
+
+}
+
+.Subscribe input{
+    width: 15vw;
+    height: 5vh;
+    font-size: 1.2vw;
+}
+
+  
+.position .address , .Subscribe h3, .Subscribe h4, .contact-us h3, .contact-us h4{
+    font-weight: 100;
+    font-size: 2vw;
+
+}
+button:hover{
+    background-color: #93EFA3;
+}
+}
+
+
+@media (max-width: 699px) and (min-width: 400px) {
+  .all{
+    font-size: 2.2vw;
+  
+  }
+  
+  .Subscribe input{
+      width: 15vw;
+      height: 5vh;
+      font-size: 1.2vw;
+  }
+  
+  .footer-container {
+    height: 40vw;
+
+  }
+ 
+}
+@media (max-width: 990px) and (min-width: 601px) {
+  .all{
+    font-size: 1.5vw;
+  
+  }
+
+}
+@media only screen and (max-width:400px) {
+  .all{
+    font-size: 1.5vw;
+  
+  }
+  .Subscribe input{
+    width: 15vw;
+    height: 2vh;
+    font-size: 1.2vw;
+}
+.Subscribe button{
+  width: 9vw;
+  font-size: 1.2vw;
+}
 }

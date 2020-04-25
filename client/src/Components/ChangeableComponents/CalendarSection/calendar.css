@@ -28,3 +28,22 @@
 .second-h1{
     margin-left:30vw;
 }
+@media (max-width: 600px) and (min-width: 399px) {
+     /**/
+ .calander-container{
+    height: 50vh;
+    font-family: Amiri;
+    font-size: 1vw;
+
+}
+
+}
+@media (max-width: 900px) and (min-width: 601px) {
+
+.calander-container{
+    font-size: 1vw;
+    height: 60vh;
+
+
+}
+}
