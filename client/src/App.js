@@ -4,6 +4,7 @@ import Home from './Components/ChangeableComponents/Home/Home';
 import AllArticles from './Components/ChangeableComponents/Articles/MainPageComponent/AllArticles';
 import NewsMainPage from './Components/ChangeableComponents/EventsandNewsSection/EventsNewsPageComponent/NewsMainPage';
 import FirstDivMainPage from './Components/ChangeableComponents/FirstUISection/MainPageForFirstSection/FirstDivMainPage';
+import Page404 from './Components/Error/Page404';
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
           <Route exact path ="/home/article-section" component={AllArticles} />
           <Route exact path ="/home/news-and-event-section" component={NewsMainPage} />
           <Route exact path ="/home/details-about-us" component={FirstDivMainPage} />
+          <Route component={Page404} />
+
 
 
         </Switch> 
