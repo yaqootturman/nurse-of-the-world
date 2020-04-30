@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import 'react-calendar/dist/Calendar.css';
 import './calendar.css'
 
 class CalendarSection extends Component {
