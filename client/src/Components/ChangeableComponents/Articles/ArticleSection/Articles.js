@@ -9,7 +9,6 @@ class Articles extends Component{
         return(
             <div id="section5" className="div-fourth">
                 <div className="tittle">
-                  <h1> المقالات </h1>
               </div>
               <div className="article-shape">
                  {this.props.articlesData.map(article =>
