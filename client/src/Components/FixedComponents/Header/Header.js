@@ -38,7 +38,7 @@ function Header(){
                         to="section2"
                         smooth={true}
                         duration= {500}
-                        >من نحن </Link></li>
+                        >الصفحة الرئيسية  </Link></li>
                       <li> <Link
                         activeClass="active"
                         to="section3"
