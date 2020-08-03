@@ -11,7 +11,8 @@ function Footer() {
                          <hr></hr>
                          <h3>! للمزيد من الأخبار اشترك معنا</h3>
                          <input placeholder="الايميل الخاص بك@ hotmal.com"></input>
-                         <button type="submit">انضم الان</button>
+                            <br></br>
+                            <button type="submit">تقديم </button>
 
                     </div>
                     <div className="contact-us">
