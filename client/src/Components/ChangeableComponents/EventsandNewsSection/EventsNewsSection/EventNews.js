@@ -8,7 +8,6 @@ class EventNews extends Component{
         return(
             <div id="section3" className="div-third">
                 <div className="tittle">
-                    <h1> الأنشطة والأخبار</h1>
                 </div>
                 <div className="activites-shape">
                     {this.props.eventsData.map( event =>
