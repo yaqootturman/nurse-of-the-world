@@ -1,7 +1,6 @@
  /**/
- .calander-container{
+  .calander-container{
     height: 120vh;
-    font-family: Amiri;
 
 }
   .calander-container {
@@ -14,7 +13,6 @@
   
 .tittle{
     word-spacing: 1vw;
-    font-family: Amiri;
 
 
 }
