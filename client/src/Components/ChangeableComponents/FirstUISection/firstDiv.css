@@ -1,7 +1,6 @@
 .div-one{
     background-color: white;
     height: 150vh;
-    font-family: 'Aref Ruqaa', serif;
 
 
 }
@@ -18,6 +17,8 @@
     font-size: 3vw;
     opacity: 0;
     text-align: right;
+    font-size: 2em;
+
         
     }
 .div-one .paragraph button{
