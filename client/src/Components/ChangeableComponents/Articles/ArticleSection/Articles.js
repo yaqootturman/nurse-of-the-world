@@ -11,18 +11,20 @@ class Articles extends Component{
                 <div className="tittle">
               </div>
               <div className="article-shape">
-                 {this.props.articlesData.map(article =>
-
+                 {this.props.articlesData.map((article, index) =>
+                    index < 3 ?
                  <div className="first-item" key={article.article_id}>
                      <h1>{article.title}</h1>
                  
         
                  
                   </div>
+                  : 
+                  null
 
                   )} 
                   </div> 
-                  <Link to="/home/article-section"> <button>استكشاف المزيد</button></Link>
+                  <Link to="/home/article-section"> <button>   المزيد من المقالات</button></Link>
 
             </div>
        
