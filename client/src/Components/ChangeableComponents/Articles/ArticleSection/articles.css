@@ -1,8 +1,7 @@
  /*div four*/
  .div-fourth{
-    background-color:#93EFA3;
+    background: black url(https://subtlepatterns.com/patterns/geometry2.png) repeat 0 0;
     height: 109vh;
-    font-family: 'Aref Ruqaa', serif;
 
 }
 .div-fourth .tittle hr{
