@@ -15,16 +15,10 @@
     height: 0.2vw;
     text-align: center;
     width: 20vw;
-
-
-
 }
 .tittle h1{
     text-align: center;
-
-
 }
-
 .activites-shape{
     display: grid;
     grid-template-columns: auto auto auto;
@@ -40,24 +34,17 @@
 .activites-shape h1{
     text-align: center;
 }
-.div-third button{
-    background-color:#93EFA3;
-    position: absolute;
-    width:20vw;
-    height: 9vh;
-    border-radius: 30px;
+ .div-third button{
+     width:233px;
+    height: 47px;
+    border-radius: 25px;
+    border: #93EFA3;
+    background-color: #93EFA3;
+    margin-left: 40vw;
+    margin-top: 6vh;
     font-weight: 1000;
     font-size: 1.4vw;
-    margin-top: 5vw;
-    margin-left: 40vw;
-    background: #93EFA3;
-    border-right: #93EFA3;
-    border-left: #93EFA3;
-    border-top: #93EFA3;
-    border-bottom: #93EFA3;
-  
-
-}
+} 
 /* media query */
 @media (max-width: 990px) and (min-width: 601px) {
 
@@ -81,7 +68,6 @@
         margin-left: 35vw;
     
     }
-   
 
 }
 
@@ -99,16 +85,10 @@
     height: 0.1vw;
     text-align: center;
     width: 20vw;
-
-
-
 }
 .tittle h1{
     text-align: center;
-
-
 }
-
 .activites-shape{
 padding-top: 5vw;
 }
@@ -125,7 +105,6 @@ padding-top: 5vw;
     margin-top: 5vh;
     margin-left: 36vw;
     font-size: 2vw;
-
 }
 }
 @media only screen and (max-width:400px) {
@@ -152,7 +131,6 @@ padding-top: 5vw;
         margin-top: 2vw;
         margin-left: 40vw;
         font-size: 2vw;
-    
     }
 
 }

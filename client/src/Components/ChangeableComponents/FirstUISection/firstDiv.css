@@ -17,30 +17,26 @@
     font-size: 3vw;
     opacity: 0;
     text-align: right;
-    font-size: 2em;
+    margin-top:auto;
+    font-size: 2em;    
+}
 
-        
-    }
 .div-one .paragraph button{
-    width:20vw;
+    width:233px;
     height: 9vh;
-    box-shadow: 0px 8px 8px #93EFA3;
-    border-radius: 30px;
+    border-radius: 25px;
+    border: #93EFA3;
     background-color: #93EFA3;
-    border-right: #93EFA3;
-    border-left: #93EFA3;
-    border-bottom: #93EFA3;
-    margin-left: 40%;
-    margin-top: -60%;
+    margin-left: 15vw;
+    margin-top: 4vh;
     font-weight: 1000;
     font-size: 1.4vw;
-    }
+    } 
 
 .div-one-logo img{
-    width: 25vw;
     height: 55vh;
     opacity: 0;
-    margin-top:29vh;
+    margin-top:173px;
     margin-left: 60vw;
     position: absolute;    
 }

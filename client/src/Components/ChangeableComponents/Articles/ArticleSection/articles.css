@@ -39,22 +39,18 @@
     padding-top: 10vh;
 
 }
-.div-fourth button{
-    position: absolute;
-    width:20vw;
-    height: 9vh;
-    border-radius: 30px;
+ .div-fourth button{
+    width:233px;
+    height: 47px;
+    border-radius: 25px;
+    border: #93EFA3;
+    background-color: #93EFA3;
+    margin-left: 40vw;
+    margin-top: 6vh;
     font-weight: 1000;
     font-size: 1.4vw;
-    margin-top: 5vw;
-    margin-left: 40vw;
-    background: #448FEE;
-    border-right: #448FEE;
-    border-left: #448FEE;
-    border-top: #448FEE;
-    border-bottom: #448FEE;
   
-}
+} 
 /* media query */
 
 @media (max-width: 600px) and (min-width: 399px) {
@@ -77,24 +73,10 @@
     width:20vw;
   
 }
-.div-fourth button{
-    width: 25vw;
-    height: 9vh;
-  
-}
-
-
-
   
 }
 @media only screen and (max-width:400px) {
-    .div-fourth button{
-        font-size: 2vw;
-        width: 19vw;
-        height: 5vw;
-        margin-left: 40vw;
-        
-    }
+
 
 }
 
@@ -118,10 +100,6 @@
      width:20vw;
   
 }
-.div-fourth button{
-    width: 25vw;
-    height: 9vh;
-  
-}
+
 
 }

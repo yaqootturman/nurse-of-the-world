@@ -83,7 +83,6 @@ button:hover{
     color: #448FEE;
     margin-left: 1%;
 }
-::selection { color: #93EFA3; }
 .social-network a.icotwitter{
   color: rgb(129, 182, 250);
 }
@@ -94,7 +93,6 @@ button:hover{
   color:blue;
 }
 
-::selection { color: #93EFA3; }
 /* media query */
 @media only screen and (max-width: 1000px) and (min-width: 700px) {
  
