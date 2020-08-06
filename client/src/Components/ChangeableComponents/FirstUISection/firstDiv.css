@@ -18,6 +18,7 @@
     font-size: 3vw;
     opacity: 0;
     text-align: right;
+    margin-top:auto;
         
 }
 
@@ -34,10 +35,9 @@
     } 
 
 .div-one-logo img{
-    width: 25vw;
     height: 55vh;
     opacity: 0;
-    margin-top:29vh;
+    margin-top:173px;
     margin-left: 60vw;
     position: absolute;    
 }
