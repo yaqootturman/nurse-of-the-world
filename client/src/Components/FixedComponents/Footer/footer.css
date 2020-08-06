@@ -22,15 +22,16 @@
 
   .Subscribe button{
     font-weight: 1000;
-    background-color:#93EFA3;
-    font-family: 'Aref Ruqaa', serif;
-    border-bottom: #93EFA3;
-    border-right: #93EFA3;
-    border-top: #93EFA3;
-    border-left: #93EFA3;
+    background-color:#ffff;
+    border-bottom: #ffffff;
+    border-right: #ffffff;
+    border-top: #ffffff;
+    border-left: #ffffff;
     font-weight: 1000;
-    height: 10%;
-    border-radius: 50%;
+    height: 5.8vh;
+    width: 6vw;
+    margin-top: 1vh;
+    color: #448FEE;
     
     
 }

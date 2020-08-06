@@ -37,7 +37,7 @@ function FirstDiv(){
                 </div>
                 <div className="paragraph">
                     <p ref={el => (breif = el)}>مهتمنا هي  تعزيز كفاءة التعليم والتدريب والدور القيادي للشباب عن طريق دعم جيل جديد من الشباب ليصبحوا قادة متعلمين ، مهنيين مهرة ، ورواداَ يلهمون أفراد عائلاتهم للتكاثف وتحقيق الازدهار</p>
-                    <Link to="/home/details-about-us"> <button>استكشاف المزيد</button></Link>
+                    <Link to="/home/details-about-us"> <button>تعرف على المزيد عنا</button></Link>
                 </div>
             
 

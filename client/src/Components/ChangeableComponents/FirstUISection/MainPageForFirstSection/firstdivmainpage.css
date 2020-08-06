@@ -57,6 +57,7 @@ all-page{
 }
 .first-icon h1, .second-icon h1, .third-icon h1, .fourth-icon h1{
     opacity: 0;
+    font-size: 19px;
 }
 
 .hover1:hover > h1{
@@ -74,6 +75,7 @@ all-page{
 .hover4:hover > h1{
     opacity: 1;
     color: black;
+    
 }
 /* media query */
 @media only screen and (max-width: 1000px) and (min-width: 700px) {

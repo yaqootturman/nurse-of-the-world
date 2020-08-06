@@ -16,7 +16,7 @@ function FirstDivMainPage(){
             <div className="div-second">
                 <div class="main-section">
                      <p>نحن فريق شبابي طبي نتطلع إلى جيل حر قادر متعلم ذو كفاءة عن طريق مساعدة بعضنا
-                    البعض، نشبك أيدينا سوياُ لنحمل مستقبل أفضل كل شبابنا ومجتمعنا</p>        
+                    البعض، نشبك أيدينا سوياُ لنحمل مستقبل أفضل الى كل شبابنا ومجتمعنا</p>        
                 </div>
                 <div className="icons">
                     <div className="first-icon">

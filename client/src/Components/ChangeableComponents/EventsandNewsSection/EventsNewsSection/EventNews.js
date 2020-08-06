@@ -18,7 +18,7 @@ class EventNews extends Component{
                         )}
 
                 </div>
-               <Link to="/home/news-and-event-section"> <button>استكشاف المزيد</button></Link>
+               <Link to="/home/news-and-event-section"> <button>المزيد من الأنشطة والاخبار </button></Link>
             </div>
 
         )
