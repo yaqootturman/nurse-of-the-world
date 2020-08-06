@@ -8,10 +8,7 @@
         font-family: 'Aref Ruqaa', serif;
 
     }
-    ::selection {
-        color: #448FEE;
-        background: #93EFA3;
-      }
+
       @media (max-width: 600px) and (min-width: 399px) {
         .all-home{
             height: 300vw;
