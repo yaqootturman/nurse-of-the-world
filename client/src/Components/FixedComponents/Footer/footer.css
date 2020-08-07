@@ -1,40 +1,30 @@
 .all{
     width: 100%;
-    bottom: 0px;
-    margin-top: 0px;
-    
+    height: fit-content;   
 }
 .footer-container {
     display: grid;
     grid-template-areas: 'left middle right';
     background-color:#448FEE;
-    color: white;
+    padding-top: 5vh;
+    padding-bottom:5vh;
   } 
-  .Subscribe,
-  .contact-us,
-  .position {
-    height: 50vh;
-  }
+
   .Subscribe {
     grid-area: left;
     text-align: center;
-
+    padding:inherit;  
   }
 
   .Subscribe button{
     font-weight: 1000;
     background-color:#ffff;
-    border-bottom: #ffffff;
-    border-right: #ffffff;
-    border-top: #ffffff;
-    border-left: #ffffff;
+    border-color: #ffffff;
     font-weight: 1000;
     height: 5.8vh;
     width: 6vw;
     margin-top: 1vh;
     color: #448FEE;
-    
-    
 }
 
 address{
@@ -51,12 +41,13 @@ address{
     grid-area: middle;
     text-align: center;
     display: block;
+    padding:inherit;  
 
   }
   .position {
     grid-area: right;
     text-align: center;
-
+    padding:inherit;  
 
   }
    hr{
@@ -135,12 +126,7 @@ button:hover{
       height: 5vh;
       font-size: 1.2vw;
   }
-  
-  .footer-container {
-    height: 40vw;
 
-  }
- 
 }
 @media (max-width: 990px) and (min-width: 601px) {
   .all{
