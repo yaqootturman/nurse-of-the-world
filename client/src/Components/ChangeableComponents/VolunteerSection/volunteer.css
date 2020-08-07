@@ -1,14 +1,13 @@
 .div-sixth{
-    background-color: white;
-    height: 40vh;
+    background: black url(https://subtlepatterns.com/patterns/geometry2.png) repeat 0 0;
     text-align: center;
     font-size: 2.1vw;
-    padding-top: 1%;
-
+    height: 100vh;
+    padding-top:22px;
     
 }
 .div-sixth h1{
-    padding-top: 3%;
+    padding-top: 11vh;
 }
 mark{
     background-color:#448FEE;

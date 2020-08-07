@@ -1,9 +1,6 @@
 .div-third{
     background: black url(https://subtlepatterns.com/patterns/geometry2.png) repeat 0 0;
     height: 100vh;
-
-    
-
 }
 .div-third .tittle{
     width:25vw;
@@ -20,6 +17,7 @@
     text-align: center;
 }
 .activites-shape{
+    padding-top: 22vh;
     display: grid;
     grid-template-columns: auto auto auto;
 }
