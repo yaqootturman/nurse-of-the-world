@@ -38,7 +38,7 @@ class Home extends Component {
         return (
             <>
                 <Header></Header>
-                <div id="section2" >
+                <div id="section2">
                     <FirstDiv> </FirstDiv>
                     <EventNews eventsData={this.state.activites}></EventNews>
                     <Articles articlesData={this.state.articles}></Articles>
