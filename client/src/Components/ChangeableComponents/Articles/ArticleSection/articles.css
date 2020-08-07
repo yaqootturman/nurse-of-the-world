@@ -1,23 +1,13 @@
  /*div four*/
  .div-fourth{
-    background: black url(https://subtlepatterns.com/patterns/geometry2.png) repeat 0 0;
-    height: 109vh;
-
+    height: 100vh;
 }
-.div-fourth .tittle hr{
-    height: 0.2vw;
-    text-align: center;
-    width: 20vw;
 
-
-}
 
 .article-shape{
-    padding-top: 3vh;
+    padding-top: 22vh;
     display: grid;
     grid-template-columns: auto auto auto;
-    
-        
 }
 .article-shape .first-item {
     background-color: rgba(255, 255, 255, 0.8);
@@ -33,14 +23,9 @@
     text-align: center;
     
 }
-.div-fourth  .tittle{
-    width:25vw;
-    margin-left: 38%;
-    padding-top: 10vh;
 
-}
  .div-fourth button{
-    width:233px;
+      width: 233px;
     height: 47px;
     border-radius: 25px;
     border: #93EFA3;

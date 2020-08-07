@@ -1,7 +1,8 @@
 .all{
     width: 100%;
     bottom: 0px;
-
+    margin-top: 0px;
+    
 }
 .footer-container {
     display: grid;

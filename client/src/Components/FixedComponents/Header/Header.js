@@ -47,12 +47,6 @@ function Header() {
           >الاخبار </Link></li>
           <li> <Link
             activeClass="active"
-            to="section4"
-            smooth={true}
-            duration={500}
-          >الأحداث</Link></li>
-          <li> <Link
-            activeClass="active"
             to="section5"
             smooth={true}
             duration={500}
