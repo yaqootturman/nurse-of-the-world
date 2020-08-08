@@ -26,11 +26,6 @@ function Footer() {
                     <h1>أين نحن؟</h1>
                     <hr></hr>
                     <address>فلسطين- غزة</address>
-                    <address> الرمال - شارع التلاتيني</address>
-                    <address>الطابق التالت - شقة 5</address>
-
-
-
                 </div>
 
                 <div className="soical-media">
