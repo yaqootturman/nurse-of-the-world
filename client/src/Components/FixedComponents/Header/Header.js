@@ -31,6 +31,10 @@ function Header() {
 
   return (
     <div className="container">
+      <div className="header-logo">
+        <h1 ref={el => (logoanimation = el)}><span> فريق  </span>
+        ممرض العالم</h1>
+      </div>
       <div ref={el => (list = el)} className="list">
         <ul>
           <li> <Link
@@ -57,22 +61,22 @@ function Header() {
             smooth={true}
             duration={500}
           >التواصل معنا</Link></li>
-          <li> <Link
+          <li className="underline-link"> <Link
             activeClass="active"
             to="section7"
             smooth={true}
             duration={500}>
-            <a className="underline-link">انضم لنا</a>
+
+            <a >
+              انضم لنا
+               </a>
+
           </Link></li>
 
         </ul>
       </div>
-      <div className="header-logo">
-        <h1 ref={el => (logoanimation = el)}>فريق ممرض العالم</h1>
 
-
-      </div>
-    </div>
+    </div >
   )
 }
 
