@@ -62,29 +62,6 @@ button:hover{
     background-color: #93EFA3;
 }
 
-.soical-media ul{
-    text-align: center;
-    margin-right: 10%;
-
-}
-.soical-media ul li{
-    display: inline;
-    margin-left: 7%;
-}
-.soical-media ul li a{
-    color: #448FEE;
-    margin-left: 1%;
-}
-.social-network a.icotwitter{
-  color: rgb(129, 182, 250);
-}
-.social-network a.icoinstagram{
-  color:rgb(197, 82, 101);
-}
-.social-network a.icofacebook{
-  color:blue;
-}
-
 /* media query */
 @media only screen and (max-width: 1000px) and (min-width: 700px) {
  
