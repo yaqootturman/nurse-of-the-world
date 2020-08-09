@@ -40,6 +40,18 @@ class Home extends Component {
                 <Header></Header>
                 <div id="section2">
                     <FirstDiv> </FirstDiv>
+
+                    <div className="soical-media">
+                        <ul className="social-network social-circle">
+                            <li><a href="https://www.google.com/" className="icotwitter" title="twitter"> <i className="fab fa-twitter fa-2x"></i></a></li>
+                            <li><a href="https://www.google.com/" className="icofacebook" title="facebook"><i className="fab fa-facebook-f fa-2x"></i></a></li>
+                            <li><a href="https://www.google.com/" className="icoinstagram" title="instagram"><i className="fab fa-instagram fa-2x"></i></a></li>
+                            <li><a href="https://www.google.com/" className="icoLinkedin" title="Linkedin"><i className="fab fa-linkedin-in fa-2x"></i></a></li>
+                        </ul>
+
+
+                    </div>
+
                     <EventNews eventsData={this.state.activites}></EventNews>
                     <Articles articlesData={this.state.articles}></Articles>
                     <Volunteer></Volunteer>
