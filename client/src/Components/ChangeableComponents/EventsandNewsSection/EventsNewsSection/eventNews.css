@@ -69,10 +69,10 @@
 
 }
 
-@media (max-width: 600px) and (min-width: 399px) {
+@media (max-width: 500px) and (min-width: 320px) {
 
 .div-third{
-    height: 53vw;
+    height: 40vw;
     font-size: 1vw;
 }
 .div-third .tittle{
@@ -98,38 +98,14 @@ padding-top: 5vw;
     text-align: center;
 }
 .div-third button{
-    width: 25vw;
-    height: 9vh;
+    width: 19vw;
+    height: 5vh;
     margin-top: 5vh;
     margin-left: 36vw;
-    font-size: 2vw;
+    font-size: 1vw;
+    margin-left: 40vw;
+    margin-top: 11vh;
+    font-weight: 1000;
 }
-}
-@media only screen and (max-width:400px) {
-
-    .div-third .tittle{
-        padding-top: 8vh;
-    
-    }
-  
-    .tittle h1{
-        text-align: center;
-    
-    
-    }
-    
-    .activites-shape{
-      
-        padding-top: 2vh;
-    }
-   
-    .div-third button{
-        width: 19vw;
-        height: 5vw;
-        margin-top: 2vw;
-        margin-left: 40vw;
-        font-size: 2vw;
-    }
-
 }
 
