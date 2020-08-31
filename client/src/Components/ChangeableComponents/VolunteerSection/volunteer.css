@@ -4,10 +4,11 @@
     font-size: 2.1vw;
     height: 100vh;
     padding-top:22px;
-    
+    width: 100%;  
+
 }
 .div-sixth h1{
-    padding-top: 11vh;
+    padding-top: 15vh;
 }
 mark{
     background-color:#448FEE;
@@ -18,7 +19,7 @@ mark{
     border-radius: 25px;
     border: #93EFA3;
     background-color: #93EFA3;
-    margin-top: 11vh;
+    margin-top: 18vh;
     font-weight: 1000;
     font-size: 1.4vw;
 }
@@ -28,35 +29,29 @@ mark{
     
    
 }
-@media (max-width: 600px) and (min-width: 399px) {
+@media (max-width: 500px) and (min-width: 320px) {
     .div-sixth{
-        background-color: white;
-        height: 20vw;
-    
-        
+        background-color: white; 
+        height: 45vh;  
+        position: relative;   
+    }
+    .div-sixth p{
+        font-size: 10px;
     }
     
     .div-sixth button{
         width: 20vw;
-        height: 8vh;
+        height: 4vh;
+        border-radius: 5px;
+        position: absolute;
+        top:20vh;
+        left: 40vw;
     
     }
     .div-sixth h1{
         padding-top: 20vw;
     }
   
-}
 
-@media only screen and (max-width:400px) {
-    .div-sixth button{
-        width: 20vw;
-        height: 5vh;
-        font-size: 1.5vw;
-    
-    }
-    .div-sixth h1{
-        padding-top: 10vw;
-    }
-   
  
   }

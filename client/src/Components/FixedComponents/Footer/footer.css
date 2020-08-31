@@ -68,15 +68,16 @@ button:hover{
     
    
 }
-@media (max-width: 600px) and (min-width: 399px) {
+@media (max-width: 500px) and (min-width: 320px) {
   .all{
   font-size: 2vw;
+  height: 20vh;
 
 }
 
 .Subscribe input{
     width: 15vw;
-    height: 5vh;
+    height: 1.5vh;
     font-size: 1.2vw;
 }
 
@@ -89,41 +90,13 @@ button:hover{
 button:hover{
     background-color: #93EFA3;
 }
-}
-
-
-@media (max-width: 699px) and (min-width: 400px) {
-  .all{
-    font-size: 2.2vw;
-  
-  }
-  
-  .Subscribe input{
-      width: 15vw;
-      height: 5vh;
-      font-size: 1.2vw;
-  }
-
-}
-@media (max-width: 990px) and (min-width: 601px) {
-  .all{
-    font-size: 1.5vw;
-  
-  }
-
-}
-@media only screen and (max-width:400px) {
-  .all{
-    font-size: 1.5vw;
-  
-  }
-  .Subscribe input{
-    width: 15vw;
-    height: 2vh;
-    font-size: 1.2vw;
-}
 .Subscribe button{
-  width: 9vw;
-  font-size: 1.2vw;
+  height: 3vh;
+  width: 7vw;
+  font-size: 10px;
+
 }
 }
+
+
+
