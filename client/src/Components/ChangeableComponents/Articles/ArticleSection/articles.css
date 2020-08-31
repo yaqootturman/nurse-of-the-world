@@ -38,9 +38,9 @@
 } 
 /* media query */
 
-@media (max-width: 600px) and (min-width: 399px) {
+@media (max-width: 500px) and (min-width: 320px) {
  .div-fourth{
-    height: 60vh;
+    height: 40vh;
     font-size: 1vw;
 }
 .div-fourth .tittle h1{
@@ -57,6 +57,10 @@
     height: 20vh;
     width:20vw;
   
+}
+.div-fourth button{
+    height:5vh;
+    width:19vw;
 }
   
 }
